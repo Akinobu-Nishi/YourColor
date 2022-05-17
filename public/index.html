@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>YourColor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css'>
+  <script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+  <script src='https://apis.google.com/js/platform.js' async defer></script>
+  <script src="./app.js"></script>
+  <style type="text/css" media="all">
+    body { 
+      margin-top: 30px;
+      font-family: Klee One;
+      font-style: normal;
+      font-weight: normal;
+    }
+    .form select { width: 103px; } 
+    .templates { display: none; }
+  </style>
+</head>
+<body id="body">
+  <div class="markup">
+    <div class="view-container container">
+    </div>
+    <div class="templates">
+      <div class="landing-view">
+        <div class="row">
+          <div class="one-half column">
+            <h1>Your Color</h1>
+            <form>
+              <p>あなたのバースデーカラーをお調べします</p>
+              <div class="form">
+                <span>
+                  <select id="month" name="month" onchange="selectChange_month(this);">
+                    <option value="" disabled selected style="display:none;">月</option>
+                    <option value="01">01月</option>
+                    <option value="02">02月</option>
+                    <option value="03">03月</option>
+                    <option value="04">04月</option>
+                    <option value="05">05月</option>
+                    <option value="06">06月</option>
+                    <option value="07">07月</option>
+                    <option value="08">08月</option>
+                    <option value="09">09月</option>
+                    <option value="10">10月</option>
+                    <option value="11">11月</option>
+                    <option value="12">12月</option>
+                  </select>
+                </span>
+                <span>
+                  <select id="day" name="day" onchange="selectChange_day(this);">
+                    <option value="" disabled selected style="display:none;">日</option>
+                  </select>
+                </span>
+              </div>
+              <a href="#birth" class="button">Enter</a>
+            </form>  
+          </div>
+          <div class="one-half column">
+            <img class="u-max-full-width" src='./images/LandingImage.jpg'/>
+          </div>
+        </div>
+      </div>
+      <div class="birth-view">
+        <div class="row">
+          <div class="one-half column">
+            <h1>薄群青</h1>
+          </div>
+          <div class="one-half column">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    $(window).ready(yourcolor.appOnReady)
+  </script>
+</body>
+</html>
