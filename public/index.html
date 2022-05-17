@@ -21,7 +21,7 @@
     .templates { display: none; }
   </style>
 </head>
-<body id="body">
+<body>
   <div class="markup">
     <div class="view-container container">
     </div>
@@ -34,7 +34,7 @@
               <p>あなたのバースデーカラーをお調べします</p>
               <div class="form">
                 <span>
-                  <select id="month" name="month" onchange="selectChange_month(this);">
+                  <select class="month-select" >
                     <option value="" disabled selected style="display:none;">月</option>
                     <option value="01">01月</option>
                     <option value="02">02月</option>
@@ -51,12 +51,14 @@
                   </select>
                 </span>
                 <span>
-                  <select id="day" name="day" onchange="selectChange_day(this);">
+                  <select class="day-select">
                     <option value="" disabled selected style="display:none;">日</option>
                   </select>
                 </span>
               </div>
-              <a href="#birth" class="button">Enter</a>
+              <a href="#birth" class="button enter-btn">Enter</a>
+              <!-- <input type="submit" value="Enter" class="enter-btn"> -->
+              <!-- <button class="button enter-btn">Enter</button> -->
             </form>  
           </div>
           <div class="one-half column">
