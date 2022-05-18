@@ -1,5 +1,7 @@
 # YourColor
 あなたのバースデーカラーをお調べするWEBアプリ
 
-# Command
-python -m http.server 9292
+# local server kick
+$ cd public
+$ python -m http.server 9292
+-> localhost:9292 にアクセス

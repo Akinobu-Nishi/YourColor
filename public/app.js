@@ -1,6 +1,7 @@
 'use strict';
 
 var yourcolor = {};
+var AWS = require('aws-sdk');
 
 yourcolor.mon;  //誕生月
 yourcolor.day;  //誕生日
@@ -20,7 +21,11 @@ yourcolor.showView = function(hash) {
   };
   var viewFn = routes[hash];
   if (viewFn) {
-    $('.view-container').empty().append(viewFn);
+    $('body').fadeOut(500);
+    setTimeout (function() {
+      $('.view-container').empty().append(viewFn);
+    }, 500);
+    $('body').fadeIn(500);
   }
 }
 
@@ -46,10 +51,7 @@ yourcolor.landingView = function() {
     }
     var link = $(this).attr('href');
     if (link !== '') {
-      $('body').fadeOut(500);
-      setTimeout (function() {
-        window.location.hash = link;
-      }, 500);
+      window.location.hash = link;
     }
     return false;
   });
@@ -100,7 +102,6 @@ yourcolor.landingView = function() {
 
 yourcolor.birthView = function() {
   var view = yourcolor.template('birth-view');
-  var birthdate = yourcolor.mon + yourcolor.day;
   $('body').css('background-color','#5383c3');
   $('body').fadeIn(500);
   return view;
