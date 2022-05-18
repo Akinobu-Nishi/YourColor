@@ -35,7 +35,7 @@ yourcolor.landingView = function() {
   yourcolor.mon = "";
   yourcolor.day = "";
 
-  view.find('.month-select').change(function() {
+  view.find('.mon-select').change(function() {
     yourcolor.mon = $(this).val();
     populateDays(yourcolor.mon);
   });
@@ -116,6 +116,7 @@ yourcolor.birthView = function() {
       cache: false
     }).then(
       function(json) {
+        console.log("JSONファイルの読み込み成功");
         yourcolor.data = JSON.parse(JSON.stringify(json));
       },
       function (jqXHR, textStatus, errorThrown) {
@@ -128,14 +129,35 @@ yourcolor.birthView = function() {
   }
 
   var item = yourcolor.data.find((v) => v.Birthday === birthday)
+  console.log(item);
   var r = parseInt(item.ColorCode[1]+item.ColorCode[2],16);
   var g = parseInt(item.ColorCode[3]+item.ColorCode[4],16);
   var b = parseInt(item.ColorCode[5]+item.ColorCode[6],16);
 
   view.find('#color-name').text(item.ColorName);
+  view.find('#color-namekana').text(item.ColorNameKana);
+  view.find('#color-code').text(item.ColorCode);
+  view.find('#color-words').text("言葉 ｜ " + item.ColorWords);
+  view.find('#personality').text("性格 ｜ " + item.Personality);
+
+  var foot_prev = document.getElementById('prev');
+  var foot_pres = document.getElementById('pres');
+  var foot_next = document.getElementById('next');
+
+  foot_prev.text = '＜prev';
+  foot_pres.text = 'hoge';
+  foot_next.text = 'next＞'
+
   $('body').css('background-color',item.ColorCode);
   if ((r+g+b) < 512) {
     view.find('#color-name').css('color', 'white');
+    view.find('#color-namekana').css('color', 'white');
+    view.find('#color-code').css('color', 'white');
+    view.find('#color-words').css('color', 'white');
+    view.find('#personality').css('color', 'white');
+    foot_prev.style.color = 'white';
+    foot_pres.style.color = 'white';
+    foot_next.style.color = 'white';
   }
  
   $('body').fadeIn(500);

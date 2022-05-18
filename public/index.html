@@ -19,11 +19,42 @@
     }
     .form select { width: 103px; } 
     .templates { display: none; }
+    .fixed-bottom {
+      position: fixed;
+      bottom: 0px;
+      z-index: 1024;
+      width: 100%;
+    }
+    .fixed-bottom div {
+      text-align: center;
+    }
+    .fixed-bottom a {
+      color: black;
+      display: inline-block;
+      text-decoration: none;
+      margin-bottom: 30px;
+    }
+    .fixed-bottom a:hover {
+      text-decoration: underline;
+    }
+    .prev {
+      padding-right: 50px;
+    }
+    .next {
+      padding-left: 50px;
+    }
   </style>
 </head>
 <body>
   <div class="markup">
     <div class="view-container container">
+    </div>
+    <div class="fixed-bottom">
+      <div>
+        <a id="prev" class="prev" href=""></a>
+        <a id="pres" class="pres" href=""></a>
+        <a id="next" class="next" href=""></a>  
+      </div>
     </div>
     <div class="templates">
       <div class="landing-view">
@@ -34,7 +65,7 @@
               <p>あなたのバースデーカラーをお調べします</p>
               <div class="form">
                 <span>
-                  <select class="month-select" >
+                  <select class="mon-select" >
                     <option value="" disabled selected style="display:none;">月</option>
                     <option value="01">01月</option>
                     <option value="02">02月</option>
@@ -67,11 +98,22 @@
         </div>
       </div>
       <div class="birth-view">
-        <div class="row">
+        <div class="row row1">
           <div class="ten columns">
             <h1 id="color-name"></h1>
           </div>
-          <div class="two columns">
+        </div>
+        <div class="row row2">
+          <div class="ten columns">
+            <h4 id="color-namekana"></h4>
+            <h4 id="color-code"></h4>
+          </div>
+        </div>
+        <br><br>
+        <div class="row row3">
+          <div class="ten columns">
+            <h6 id="color-words"></h6>
+            <h6 id="personality"></h6>
           </div>
         </div>
       </div>
