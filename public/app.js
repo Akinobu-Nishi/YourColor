@@ -19,11 +19,12 @@ yourcolor.showView = function(hash) {
     '#'      : yourcolor.landingView,
     '#birth' : yourcolor.birthView,
   };
-  var viewFn = routes[hash];
+  var hashParts = hash.split('-');
+  var viewFn = routes[hashParts[0]];
   if (viewFn) {
     $('body').fadeOut(500);
     setTimeout (function() {
-      $('.view-container').empty().append(viewFn);
+      $('.view-container').empty().append(viewFn(hashParts[1]));
     }, 500);
     $('body').fadeIn(500);
   }
@@ -49,7 +50,7 @@ yourcolor.landingView = function() {
       alert('誕生日を選択してください');
       return false;
     }
-    var link = $(this).attr('href');
+    var link = $(this).attr('href') + yourcolor.mon + yourcolor.day;
     if (link !== '') {
       window.location.hash = link;
     }
@@ -100,7 +101,7 @@ yourcolor.landingView = function() {
   return view;
 }
 
-yourcolor.birthView = function() {
+yourcolor.birthView = function(data) {
   var view = yourcolor.template('birth-view');
   var birthday = yourcolor.mon + "/" + yourcolor.day;
 
@@ -129,7 +130,6 @@ yourcolor.birthView = function() {
   }
 
   var item = yourcolor.data.find((v) => v.Birthday === birthday)
-  console.log(item);
   var r = parseInt(item.ColorCode[1]+item.ColorCode[2],16);
   var g = parseInt(item.ColorCode[3]+item.ColorCode[4],16);
   var b = parseInt(item.ColorCode[5]+item.ColorCode[6],16);
@@ -139,14 +139,25 @@ yourcolor.birthView = function() {
   view.find('#color-code').text(item.ColorCode);
   view.find('#color-words').text("言葉 ｜ " + item.ColorWords);
   view.find('#personality').text("性格 ｜ " + item.Personality);
+  $('#pres').text(Number(yourcolor.mon) + '月' + Number(yourcolor.day) + '日');
+
+  var date = new Date('2020/' + yourcolor.mon + '/' + yourcolor.day);
+  var date_prev = new Date();
+  var date_next = new Date();
+  date_prev.setDate(date.getDate() - 1);
+  date_next.setDate(date.getDate() + 1);
+  console.log(date_prev);
+  console.log(date_next);
+
+  var hash_prev = date_prev.getMonth() + date_prev.getDay();
+  var hash_next = date_next.getMonth() + date_next.getDay();
+  console.log(date_prev.getMonth());
+  console.log(date_next.getMonth());
 
   var foot_prev = document.getElementById('prev');
-  var foot_pres = document.getElementById('pres');
   var foot_next = document.getElementById('next');
-
-  foot_prev.text = '＜prev';
-  foot_pres.text = 'hoge';
-  foot_next.text = 'next＞'
+  foot_prev.text = '＜';
+  foot_next.text = '＞'
 
   $('body').css('background-color',item.ColorCode);
   if ((r+g+b) < 512) {
@@ -155,8 +166,8 @@ yourcolor.birthView = function() {
     view.find('#color-code').css('color', 'white');
     view.find('#color-words').css('color', 'white');
     view.find('#personality').css('color', 'white');
+    $('#pres').css('color', 'white');
     foot_prev.style.color = 'white';
-    foot_pres.style.color = 'white';
     foot_next.style.color = 'white';
   }
  
