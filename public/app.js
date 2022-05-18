@@ -1,7 +1,6 @@
 'use strict';
 
 var yourcolor = {};
-var AWS = require('aws-sdk');
 
 yourcolor.mon;  //誕生月
 yourcolor.day;  //誕生日
@@ -102,6 +101,29 @@ yourcolor.landingView = function() {
 
 yourcolor.birthView = function() {
   var view = yourcolor.template('birth-view');
+
+  $.ajax({
+    beforeSend: function(xhr){
+      xhr.overrideMimeType('text/html;charset=Shift_JIS');
+    },
+    type: "GET",
+    url: "data.json",
+    dataType: "json",
+    async: false,
+    cache: false
+  }).then(
+    function(json) {
+      console.log('読み込み成功');
+      console.log(json);
+    },
+    function (jqXHR, textStatus, errorThrown) {
+      console.log("読み込みに失敗しました");
+      console.log("jqXHR : " + jqXHR.status);
+      console.log("textStatus : " + textStatus);
+      console.log("errorThrown : " + errorThrown.message);
+    }
+  );
+
   $('body').css('background-color','#5383c3');
   $('body').fadeIn(500);
   return view;
