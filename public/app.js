@@ -33,8 +33,15 @@ yourcolor.showView = function(hash) {
 yourcolor.landingView = function() {
   var previousDay;
   var view = yourcolor.template('landing-view');
+
   yourcolor.mon = "";
   yourcolor.day = "";
+
+  var foot_prev = document.getElementById('prev');
+  var foot_next = document.getElementById('next');
+  foot_prev.text = '';
+  foot_next.text = '';
+  $('#pres').text('');
 
   view.find('.mon-select').change(function() {
     yourcolor.mon = $(this).val();
@@ -103,7 +110,8 @@ yourcolor.landingView = function() {
 
 yourcolor.birthView = function(data) {
   var view = yourcolor.template('birth-view');
-  var birthday = yourcolor.mon + "/" + yourcolor.day;
+  var mon = data.substr(0, 2);
+  var day = data.substr(2, 2);
 
   if (!yourcolor.data) {
     $.ajax({
@@ -126,39 +134,62 @@ yourcolor.birthView = function(data) {
         console.log("textStatus : " + textStatus);
         console.log("errorThrown : " + errorThrown.message);
       }
-    );  
+    );
   }
 
-  var item = yourcolor.data.find((v) => v.Birthday === birthday)
+  function isZenKatakana(str){
+    str = (str==null)?"":str;
+    if(str.match(/^[ァ-ヶー　]+$/)) {
+      return true;
+    }else{
+      return false;
+    }
+  }
+
+  view.find('.heart').on('click', function(e) {
+    var btn = $(this);
+    if (btn.hasClass("on")) {
+      btn.removeClass('on');
+      btn.removeClass("heartAnimation");
+      btn.css("background-position","left");
+    } else {
+      btn.addClass('on');
+      btn.addClass("heartAnimation");
+    }
+  });
+
+  var item = yourcolor.data.find((v) => v.Birthday === mon + "/" + day)
   var r = parseInt(item.ColorCode[1]+item.ColorCode[2],16);
   var g = parseInt(item.ColorCode[3]+item.ColorCode[4],16);
   var b = parseInt(item.ColorCode[5]+item.ColorCode[6],16);
 
   view.find('#color-name').text(item.ColorName);
   view.find('#color-namekana').text(item.ColorNameKana);
-  view.find('#color-code').text(item.ColorCode);
+  view.find('#color-code').text(item.ColorCode.toUpperCase());
   view.find('#color-words').text("言葉 ｜ " + item.ColorWords);
   view.find('#personality').text("性格 ｜ " + item.Personality);
-  $('#pres').text(Number(yourcolor.mon) + '月' + Number(yourcolor.day) + '日');
 
-  var date = new Date('2020/' + yourcolor.mon + '/' + yourcolor.day);
-  var date_prev = new Date();
-  var date_next = new Date();
-  date_prev.setDate(date.getDate() - 1);
-  date_next.setDate(date.getDate() + 1);
-  console.log(date_prev);
-  console.log(date_next);
+  var date_prev = new Date(2020, Number(mon)-1, Number(day));
+  var date_next = new Date(2020, Number(mon)-1, Number(day));
+  date_prev.setDate(date_prev.getDate()-1);
+  date_next.setDate(date_next.getDate()+1);
 
-  var hash_prev = date_prev.getMonth() + date_prev.getDay();
-  var hash_next = date_next.getMonth() + date_next.getDay();
-  console.log(date_prev.getMonth());
-  console.log(date_next.getMonth());
-
+  var date_prev_mon = ('00' + Number(date_prev.getMonth()+1)).slice(-2);
+  var date_prev_day = ('00' + Number(date_prev.getDate())).slice(-2);
+  var date_next_mon = ('00' + Number(date_next.getMonth()+1)).slice(-2);
+  var date_next_day = ('00' + Number(date_next.getDate())).slice(-2);
   var foot_prev = document.getElementById('prev');
   var foot_next = document.getElementById('next');
-  foot_prev.text = '＜';
-  foot_next.text = '＞'
+  foot_prev.text = '＜' + Number(date_prev_mon) + '月'+ Number(date_prev_day) + '日';
+  foot_next.text = Number(date_next_mon) + '月'+ Number(date_next_day) + '日' + '＞';
+  $('#pres').text(Number(mon) + '月' + Number(day) + '日');
 
+  foot_prev.setAttribute('href', '#birth-' + date_prev_mon + date_prev_day);
+  foot_next.setAttribute('href', '#birth-' + date_next_mon + date_next_day);
+
+  $('#pres').css('color', 'black');
+  foot_prev.style.color = 'black';
+  foot_next.style.color = 'black';
   $('body').css('background-color',item.ColorCode);
   if ((r+g+b) < 512) {
     view.find('#color-name').css('color', 'white');
@@ -170,7 +201,10 @@ yourcolor.birthView = function(data) {
     foot_prev.style.color = 'white';
     foot_next.style.color = 'white';
   }
- 
+  if (isZenKatakana(item.ColorName[0])) {
+    view.find('#color-name').css('margin-left', -8);
+  }
+
   $('body').fadeIn(500);
   return view;
 }
