@@ -1,3 +1,9 @@
+@font-face {
+	font-family: 'Klee One';
+	src: url('./font/KleeOne-Regular.ttf') format('truetype'),
+       url('./font/KleeOne-SemiBold.ttf') format('truetype');
+}
+
 @keyframes heartAnimation {
   0% {
     /* アイコンサイズをもとのより小さくする */

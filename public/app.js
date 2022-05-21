@@ -185,7 +185,7 @@ yourcolor.birthView = function(data) {
   foot_prev.text = '＜' + Number(date_prev_mon) + '月'+ Number(date_prev_day) + '日';
   foot_next.text = Number(date_next_mon) + '月'+ Number(date_next_day) + '日' + '＞';
   $('#pres').text(Number(mon) + '月' + Number(day) + '日');
-  $('#home').text('TOP');
+  $('#home').text('YourColor');
 
   foot_prev.setAttribute('href', '#birth-' + date_prev_mon + date_prev_day);
   foot_next.setAttribute('href', '#birth-' + date_next_mon + date_next_day);
