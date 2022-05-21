@@ -42,6 +42,7 @@ yourcolor.landingView = function() {
   foot_prev.text = '';
   foot_next.text = '';
   $('#pres').text('');
+  $('#home').text('');
 
   view.find('.mon-select').change(function() {
     yourcolor.mon = $(this).val();
@@ -146,16 +147,17 @@ yourcolor.birthView = function(data) {
     }
   }
 
-  view.find('.heart').on('click', function(e) {
-    var btn = $(this);
-    if (btn.hasClass("on")) {
-      btn.removeClass('on');
-      btn.removeClass("heartAnimation");
-      btn.css("background-position","left");
+  view.find('.icon-heart').on('click', function() {
+    let $btn = $(this);
+    if ($btn.hasClass('haspush')) {
+      $btn.attr('class', 'icon-heart heartDisable');
     } else {
-      btn.addClass('on');
-      btn.addClass("heartAnimation");
+      $btn.attr('class', 'icon-heart heartEnable haspush');
     }
+  });
+
+  $('#home').on('click', function() {
+    window.location.hash = '#';
   });
 
   var item = yourcolor.data.find((v) => v.Birthday === mon + "/" + day)
@@ -183,11 +185,13 @@ yourcolor.birthView = function(data) {
   foot_prev.text = '＜' + Number(date_prev_mon) + '月'+ Number(date_prev_day) + '日';
   foot_next.text = Number(date_next_mon) + '月'+ Number(date_next_day) + '日' + '＞';
   $('#pres').text(Number(mon) + '月' + Number(day) + '日');
+  $('#home').text('TOP');
 
   foot_prev.setAttribute('href', '#birth-' + date_prev_mon + date_prev_day);
   foot_next.setAttribute('href', '#birth-' + date_next_mon + date_next_day);
 
   $('#pres').css('color', 'black');
+  $('#home').css('color', 'black');
   foot_prev.style.color = 'black';
   foot_next.style.color = 'black';
   $('body').css('background-color',item.ColorCode);
@@ -198,6 +202,7 @@ yourcolor.birthView = function(data) {
     view.find('#color-words').css('color', 'white');
     view.find('#personality').css('color', 'white');
     $('#pres').css('color', 'white');
+    $('#home').css('color', 'white');
     foot_prev.style.color = 'white';
     foot_next.style.color = 'white';
   }

@@ -1,24 +1,22 @@
-@-webkit-keyframes heartBlast
-{
-  0% {background-position: left;}
-  100% {background-position: right;}
-}
-
-@keyframes heartBlast
-{
-  0% {background-position: left;}
-  100% {background-position: right;}
-}
-
-.heartAnimation
-{
-  -webkit-animation-name: heartBlast;
-  animation-name: heartBlast;
-  -webkit-animation-duration: .8s;
-  animation-duration: .8s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-timing-function: steps(28);
-  animation-timing-function: steps(28);
-  background-position: right;
+@keyframes heartAnimation {
+  0% {
+    /* アイコンサイズをもとのより小さくする */
+    transform: scale(0.5);
+  }
+  10% {
+    transform: scale(0.7);
+  }
+  30% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  80% {
+    transform: scale(1.5);
+  }
+  100% {
+    /* もとのサイズに戻す */
+    transform: scale(1.0);
+  }
 }
