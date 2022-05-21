@@ -51,7 +51,7 @@
       padding-left: 65px;
     }
     .heart {
-      background: url("./images/web_heart_animation.png");
+      background: url(./images/web_heart_animation.png);
       background-position: left;
       background-repeat: no-repeat;
       height: 50px;
@@ -61,16 +61,30 @@
       left:-14px;
       background-size:1450px;
     }
-    .heart:hover
-    {
+    .heart:hover {
       background-position: right;
     }
-    .likeCount
-    {
+    .likeCount {
       margin-top: 13px;
       margin-left: 28px;
       font-size: 16px;
       color: #999999
+    }
+    .round {
+      background-color: white;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 10px;
+      vertical-align: middle;
+      text-align: center;
+    }
+    .round img {
+      margin-top: 9px;
+      margin-left: 1px;
+      width: 24px;
+      height: 24px;
     }
   </style>
 </head>
@@ -125,22 +139,36 @@
         </div>
       </div>
       <div class="birth-view">
-        <div class="row row1">
+        <div class="row">
           <div class="ten columns">
             <h1 id="color-name"></h1>
           </div>
         </div>
-        <div class="row row2">
+        <div class="row">
           <div class="ten columns">
             <h4 id="color-namekana"></h4>
             <h4 id="color-code"></h4>
           </div>
         </div>
         <br><br>
-        <div class="row row3">
+        <div class="row">
           <div class="ten columns">
             <h6 id="color-words"></h6>
             <h6 id="personality"></h6>
+          </div>
+        </div>
+        <br><br>
+        <div class="row">
+          <div class="ten columns">
+            <div class="round">
+
+            </div>
+            <div class="round">
+              <img src="./images/icon_twitter.png">
+            </div>
+            <div class="round">
+              <img src="./images/icon_line.png">
+            </div>
           </div>
         </div>
       </div>
