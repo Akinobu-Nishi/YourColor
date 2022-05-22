@@ -7,12 +7,29 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
   <link rel="stylesheet" href="./style.css">
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
   <script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
   <script src='https://apis.google.com/js/platform.js' async defer></script>
   <script src="./app.js"></script>
 </head>
 <body>
   <div class="markup">
+    <div class="icon-google">
+      <div id="g_id_onload" 
+           data-client_id="YOUR_CLIENT_ID"
+           data-callback="handleCredentialResponse"
+           data-ux_mode="popup"
+           data-auto_prompt="false">
+      </div>
+	    <div class="g_id_signin"
+           data-type="icon"
+           data-size="medium"
+           data-theme="outline"
+           data-text="SignIn"
+           data-shape="rectangular"
+           data-logo_alignment="left">
+      </div>
+    </div>
     <div class="view-container container">
     </div>
     <div class="fixed-bottom">

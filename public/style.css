@@ -43,6 +43,7 @@ body {
 }
 
 .fixed-bottom {
+  user-select: none;
   position: fixed;
   bottom: 0px;
   z-index: 1024;
@@ -160,4 +161,13 @@ body {
   cursor: pointer;
   font-weight: bold;
   font-size: 12px;
+}
+
+.icon-google {
+  padding: 10px 10px 0px 0px ;
+  user-select: none;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 1024;
 }
