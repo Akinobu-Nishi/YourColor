@@ -153,6 +153,12 @@ body {
   fill: #586d7b;
 }
 
+.icon-google {
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+}
+
 .date-view {
   margin-bottom: -10px;
 }
@@ -163,11 +169,3 @@ body {
   font-size: 12px;
 }
 
-.icon-google {
-  padding: 10px 10px 0px 0px ;
-  user-select: none;
-  position: fixed;
-  top: 0px;
-  right: 0px;
-  z-index: 1024;
-}
