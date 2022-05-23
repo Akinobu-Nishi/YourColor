@@ -6,6 +6,8 @@ yourcolor.mon;  //誕生月
 yourcolor.day;  //誕生日
 yourcolor.data;
 
+yourcolor.identity = new $.Deferred();
+
 yourcolor.appOnReady = function() {
   window.onhashchange = function() {
     yourcolor.showView(window.location.hash);
@@ -216,4 +218,24 @@ yourcolor.birthView = function(data) {
 
 yourcolor.template = function(name) {
   return $('.templates .' + name).clone();
+}
+
+window.isAuthenticated = false;
+window.identity = {};
+window.token = '';
+
+window.onload = function () {
+  google.accounts.id.initialize({
+    client_id: "1083651747097-11rdqe2avi66tgoldsatp8p8l2pdq6tj.apps.googleusercontent.com",
+    callback: handleCredentialResponse,
+  });
+  google.accounts.id.renderButton(
+    document.getElementById("buttonDiv"),
+    { theme: "outline", size: "large", text: "signin" }
+  );
+  google.accounts.id.prompt();
+}
+
+function handleCredentialResponse(response) {
+  console.log("Encoded JWT ID token: " + response.credential);
 }
