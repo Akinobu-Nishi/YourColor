@@ -46,7 +46,7 @@ body {
   user-select: none;
   position: fixed;
   bottom: 0px;
-  z-index: 1024;
+  z-index: 9;
   width: 100%;
 }
 
@@ -169,3 +169,52 @@ body {
   font-size: 12px;
 }
 
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+  margin: 20% auto;
+  width: 35%;
+  padding: 15px 15px 15px 15px;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+  animation-name: modalopen;
+  animation-duration: 1s;
+  text-align: center;
+}
+
+@keyframes modalopen {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+.modalClose {
+  border: none;
+  font-size: 4rem;
+  color: white;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.modalClose:hover {
+  text-decoration: none;
+  color: white;
+}
+
+p em.huge {
+  font-size: 22pt;
+}
+p em.tiny {
+  font-size: 12pt;
+}

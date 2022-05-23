@@ -149,7 +149,12 @@ yourcolor.birthView = function(data) {
     }
   }
 
+  const modal = document.getElementById('easyModal');
   view.find('.icon-heart').on('click', function() {
+    if (!window.isAuthenticated) {
+      modal.style.display = 'block';
+      return false;
+    }
     let $btn = $(this);
     if ($btn.hasClass('haspush')) {
       $btn.attr('class', 'icon-heart heartDisable');
@@ -157,6 +162,17 @@ yourcolor.birthView = function(data) {
       $btn.attr('class', 'icon-heart heartEnable haspush');
     }
   });
+
+  $('#modalClose').on('click', function() {
+    modal.style.display = 'none';
+  });
+
+  addEventListener('click', outsideClose);
+  function outsideClose(e) {
+    if (e.target == modal) {
+      modal.style.display = 'none';
+    };
+  };
 
   $('#home').on('click', function() {
     window.location.hash = '#';
@@ -229,10 +245,10 @@ window.onload = function () {
     client_id: "1083651747097-11rdqe2avi66tgoldsatp8p8l2pdq6tj.apps.googleusercontent.com",
     callback: handleCredentialResponse,
   });
-  google.accounts.id.renderButton(
-    document.getElementById("buttonDiv"),
-    { theme: "outline", size: "large", text: "signin" }
-  );
+  // google.accounts.id.renderButton(
+  //   document.getElementById("buttonDiv"),
+  //   { theme: "outline", size: "large", text: "signin" }
+  // );
   google.accounts.id.prompt();
 }
 

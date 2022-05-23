@@ -13,22 +13,6 @@
 </head>
 <body>
   <div class="markup">
-    <!-- <div class="icon-google">
-      <div id="g_id_onload" 
-           data-client_id="YOUR_CLIENT_ID"
-           data-callback="handleCredentialResponse"
-           data-ux_mode="popup"
-           data-auto_prompt="false">
-      </div>
-      <div class="g_id_signin"
-           data-type="icon"
-           data-size="large"
-           data-theme="outline"
-           data-shape="pill"
-           data-logo_alignment="left">
-      </div>
-    </div> -->
-    <div id="buttonDiv"></div>
     <div class="view-container container">
     </div>
     <div class="fixed-bottom">
@@ -137,6 +121,36 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div id="easyModal" class="modal">
+      <button id="modalClose" class="modalClose">×</button>
+      <div class="modal-content">
+        <p>
+          <span>
+            <em class="huge">Login</em><br>
+            <em class="tiny">To like a color, please login.</em>
+          </span>
+        </p>
+        <div>
+          <div class="icon-google">
+            <div id="g_id_onload" 
+                 data-client_id="YOUR_CLIENT_ID"
+                 data-callback="handleCredentialResponse"
+                 data-ux_mode="popup"
+                 data-auto_prompt="false">
+            </div>
+            <div class="g_id_signin"
+                 data-type="standard"
+                 data-size="large"
+                 data-theme="outline"
+                 data-shape="rectangular"
+                 data-text="signin_with"  
+                 data-logo_alignment="left">
+            </div>
+          </div>    
+        </div>
+        <br>
       </div>
     </div>
   </div>
