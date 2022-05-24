@@ -175,6 +175,7 @@ body {
 }
 
 .modal {
+  user-select: none;
   display: none;
   position: fixed;
   z-index: 10;
