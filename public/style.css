@@ -27,6 +27,11 @@
   }
 }
 
+@keyframes modalopen {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
 body { 
   margin-top: 30px;
   font-family: Klee One;
@@ -182,20 +187,27 @@ body {
 }
 
 .modal-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 350px;
+  height: 450px;
   background-color: white;
   border-radius: 5px 5px 5px 5px;
-  margin: 20% auto;
-  width: 35%;
-  padding: 15px 15px 15px 15px;
+  padding: 15px 15px 30px 15px;
   box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
   animation-name: modalopen;
   animation-duration: 1s;
   text-align: center;
 }
 
-@keyframes modalopen {
-  from {opacity: 0}
-  to {opacity: 1}
+.modal-content label {
+  display: inline-block;
+  text-align: left;
+  width: 300px;
 }
 
 .modalClose {
@@ -212,9 +224,12 @@ body {
   color: white;
 }
 
-p em.huge {
+p span.huge {
   font-size: 22pt;
 }
-p em.tiny {
+p span.medi {
   font-size: 12pt;
+}
+p span.tiny {
+  font-size: 10pt;
 }

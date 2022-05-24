@@ -127,15 +127,13 @@
       <button id="modalClose" class="modalClose">×</button>
       <div class="modal-content">
         <p>
-          <span>
-            <em class="huge">Login</em><br>
-            <em class="tiny">To like a color, please login.</em>
-          </span>
+          <span class="huge">Login</span><br>
+          <span class="medi">To like a color, please login.</span>
         </p>
         <div>
           <div class="icon-google">
             <div id="g_id_onload" 
-                 data-client_id="YOUR_CLIENT_ID"
+                 data-client_id="1083651747097-11rdqe2avi66tgoldsatp8p8l2pdq6tj.apps.googleusercontent.com"
                  data-callback="handleCredentialResponse"
                  data-ux_mode="popup"
                  data-auto_prompt="false">
@@ -143,14 +141,32 @@
             <div class="g_id_signin"
                  data-type="standard"
                  data-size="large"
-                 data-theme="outline"
+                 data-theme="filled_black"
                  data-shape="rectangular"
                  data-text="signin_with"  
-                 data-logo_alignment="left">
+                 data-logo_alignment="left"
+                 data-width="300">
             </div>
-          </div>    
+          </div>
         </div>
         <br>
+        <p style="margin:8px 0px 0px 0px;">
+          <span class="tiny">OR</span>
+        </p>
+        <div>
+          <label for="i_email">Email</label>
+          <input id="i_email" type="text" name="email" value="" style="width:300px;height:40px;margin:0px 0px 5px 0px;">
+        </div>
+        <div>
+          <label for="i_password">Password</label>
+          <input id="i_password" type="password" name="password" value="" style="width:300px;height:40px;">
+        </div>
+        <div>
+          <button style="width:300px;height:42px;color:white;background-color:#0C0C0C;">Login</button>
+        </div>
+        <div style="margin-top:10px;">
+          <a href="#register" style="font-size:10pt;color:#636e72;">新規登録</a>
+        </div>
       </div>
     </div>
   </div>

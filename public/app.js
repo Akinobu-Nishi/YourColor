@@ -245,10 +245,6 @@ window.onload = function () {
     client_id: "1083651747097-11rdqe2avi66tgoldsatp8p8l2pdq6tj.apps.googleusercontent.com",
     callback: handleCredentialResponse,
   });
-  // google.accounts.id.renderButton(
-  //   document.getElementById("buttonDiv"),
-  //   { theme: "outline", size: "large", text: "signin" }
-  // );
   google.accounts.id.prompt();
 }
 
