@@ -1,0 +1,2930 @@
+[
+    {
+        "Birthday": "01/01",
+        "ColorName": "純白",
+        "ColorNameKana": "じゅんぱく",
+        "ColorCode": "#FFFFE5",
+        "ColorWords": "純粋・優雅・シンプル",
+        "Personality": "心の美しい最高の女性"
+    },
+    {
+        "Birthday": "01/02",
+        "ColorName": "フロスティホワイト",
+        "ColorNameKana": "Frostie White",
+        "ColorCode": "#E6EAE6",
+        "ColorWords": "感性・論理・清浄",
+        "Personality": "美学的な思索のとりこ"
+    },
+    {
+        "Birthday": "01/03",
+        "ColorName": "シルバーグレイ",
+        "ColorNameKana": "Sliver Gray",
+        "ColorCode": "#AFAFB0",
+        "ColorWords": "勇気・バランス・経営力",
+        "Personality": "気高い心の持ち主"
+    },
+    {
+        "Birthday": "01/04",
+        "ColorName": "アルミニウムグレイ",
+        "ColorNameKana": "Aluminum Gray",
+        "ColorCode": "#8D9192",
+        "ColorWords": "明るさ・エネルギー",
+        "Personality": "恐れを知らぬ明るい挑戦者"
+    },
+    {
+        "Birthday": "01/05",
+        "ColorName": "スチールグレイ",
+        "ColorNameKana": "Steel Gray",
+        "ColorCode": "#736D71",
+        "ColorWords": "直観力・洞察力・潜在力",
+        "Personality": "機転のきくしっかり者"
+    },
+    {
+        "Birthday": "01/06",
+        "ColorName": "葡萄鼠",
+        "ColorNameKana": "ぶどうねずみ",
+        "ColorCode": "#705B67",
+        "ColorWords": "倫理観・スピード感・冒険心",
+        "Personality": "ドラマチックな生活の実践者"
+    },
+    {
+        "Birthday": "01/07",
+        "ColorName": "漆黒",
+        "ColorNameKana": "しっこく",
+        "ColorCode": "#0D0015",
+        "ColorWords": "情熱・才能・想像力",
+        "Personality": "目標に向かってチャレンジする発想豊かな情熱家"
+    },
+    {
+        "Birthday": "01/08",
+        "ColorName": "シトロンイエロー",
+        "ColorNameKana": "Lemonade Yellow",
+        "ColorCode": "#b8c43a",
+        "ColorWords": "宗教的感情・宇宙的構想",
+        "Personality": "自然を愛する叙情家"
+    },
+    {
+        "Birthday": "01/09",
+        "ColorName": "苔色",
+        "ColorNameKana": "こけいろ",
+        "ColorCode": "#69821b",
+        "ColorWords": "才気煥発・神秘性・想像力",
+        "Personality": "人の温かさを感じられる人"
+    },
+    {
+        "Birthday": "01/10",
+        "ColorName": "草色",
+        "ColorNameKana": "くさいろ",
+        "ColorCode": "#7b8d42",
+        "ColorWords": "英知・芸術・洗練",
+        "Personality": "広大な感情世界の持ち主"
+    },
+    {
+        "Birthday": "01/11",
+        "ColorName": "ミストグリーン",
+        "ColorNameKana": "Mist Green",
+        "ColorCode": "#bdd99f",
+        "ColorWords": "努力・才能・勇気",
+        "Personality": "新時代をつくる理想的な人"
+    },
+    {
+        "Birthday": "01/12",
+        "ColorName": "白緑",
+        "ColorNameKana": "びゃくいろ",
+        "ColorCode": "#d6e9ca",
+        "ColorWords": "気品・外交・洞察力",
+        "Personality": "思いきりのいいチャレンジャー"
+    },
+    {
+        "Birthday": "01/13",
+        "ColorName": "パロットグリーン",
+        "ColorNameKana": "Parrot Green",
+        "ColorCode": "#37a34a",
+        "ColorWords": "行動力・謙遜・沈着冷静",
+        "Personality": "自分の生き方を持つ自立者"
+    },
+    {
+        "Birthday": "01/14",
+        "ColorName": "グラスグリーン",
+        "ColorNameKana": "Grass Green",
+        "ColorCode": "#7b8d44",
+        "ColorWords": "感性・ユーモア・熟成",
+        "Personality": "感情の成熟を待つ芸術家"
+    },
+    {
+        "Birthday": "01/15",
+        "ColorName": "深緑",
+        "ColorNameKana": "ふかみどり",
+        "ColorCode": "#00552e",
+        "ColorWords": "信条・模範・慈愛",
+        "Personality": "星の輝きのような瞳の持ち主"
+    },
+    {
+        "Birthday": "01/16",
+        "ColorName": "ホワイトリリー",
+        "ColorNameKana": "WhiteLily",
+        "ColorCode": "#f0f6da",
+        "ColorWords": "大胆・想像力・信念",
+        "Personality": "自然を愛する実践家"
+    },
+    {
+        "Birthday": "01/17",
+        "ColorName": "萌黄色",
+        "ColorNameKana": "もえぎいろ",
+        "ColorCode": "#006e54",
+        "ColorWords": "生活意識・指導力・微笑み",
+        "Personality": "度胸と好奇心のある美食家"
+    },
+    {
+        "Birthday": "01/18",
+        "ColorName": "フォーリッジ",
+        "ColorNameKana": "Foliage",
+        "ColorCode": "#47744b",
+        "ColorWords": "誠実・洗練・謙虚",
+        "Personality": "純粋さを保つ幼き者"
+    },
+    {
+        "Birthday": "01/19",
+        "ColorName": "リーフグリーン",
+        "ColorNameKana": "Leaf Green",
+        "ColorCode": "#9fc24d",
+        "ColorWords": "優しさ・自尊心・精神性",
+        "Personality": "何ごとも一生懸命な努力家"
+    },
+    {
+        "Birthday": "01/20",
+        "ColorName": "フォレストグリーン",
+        "ColorNameKana": "Forest Green",
+        "ColorCode": "#288c66",
+        "ColorWords": "エネルギー・自己への投資",
+        "Personality": "理想像をはっきり持つ者"
+    },
+    {
+        "Birthday": "01/21",
+        "ColorName": "空色",
+        "ColorNameKana": "そらいろ",
+        "ColorCode": "#a0d8ef",
+        "ColorWords": "感性・可能性・芸術性",
+        "Personality": "美しいものを感じとる才能"
+    },
+    {
+        "Birthday": "01/22",
+        "ColorName": "浅葱色",
+        "ColorNameKana": "あさぎいろ",
+        "ColorCode": "#00a3af",
+        "ColorWords": "幸福・愛・友情",
+        "Personality": "思いやりのある人"
+    },
+    {
+        "Birthday": "01/23",
+        "ColorName": "露草",
+        "ColorNameKana": "つゆくさ",
+        "ColorCode": "#38a1db",
+        "ColorWords": "若々しさ・情緒・集中力",
+        "Personality": "平和で静穏な心の持ち主"
+    },
+    {
+        "Birthday": "01/24",
+        "ColorName": "鴨羽の色",
+        "ColorNameKana": "かものはいろ",
+        "ColorCode": "#00688b",
+        "ColorWords": "頭脳明晰・誠実・感受性",
+        "Personality": "楽しい夢に向う楽天家"
+    },
+    {
+        "Birthday": "01/25",
+        "ColorName": "濃藍",
+        "ColorNameKana": "こいあい",
+        "ColorCode": "#0f2350",
+        "ColorWords": "理想・現実・新生活",
+        "Personality": "スムーズな生活ができる人"
+    },
+    {
+        "Birthday": "01/26",
+        "ColorName": "クリーム",
+        "ColorNameKana": "Cream",
+        "ColorCode": "#e3d7a3",
+        "ColorWords": "豊かな表情・組織・機知",
+        "Personality": "太陽のような個性の持ち主"
+    },
+    {
+        "Birthday": "01/27",
+        "ColorName": "ペールレモン",
+        "ColorNameKana": "Peer Lemon",
+        "ColorCode": "#fef400",
+        "ColorWords": "着こなし・神秘的な眼",
+        "Personality": "あか抜けた雰囲気な者"
+    },
+    {
+        "Birthday": "01/28",
+        "ColorName": "タンポポ色",
+        "ColorNameKana": "たんぽぽいろ",
+        "ColorCode": "#ffd900",
+        "ColorWords": "冒険・明るさ・好奇心",
+        "Personality": "生まれながらの楽天家"
+    },
+    {
+        "Birthday": "01/29",
+        "ColorName": "若草色",
+        "ColorNameKana": "わかくさいろ",
+        "ColorCode": "#c3d825",
+        "ColorWords": "運動神経・知覚力・名誉",
+        "Personality": "並はずれた説得力のある者"
+    },
+    {
+        "Birthday": "01/30",
+        "ColorName": "メドーグリーン",
+        "ColorNameKana": "Medo Green",
+        "ColorCode": "#529c47",
+        "ColorWords": "あふれる愛・動物好き",
+        "Personality": "動植物と相性のいい者"
+    },
+    {
+        "Birthday": "01/31",
+        "ColorName": "若芽色",
+        "ColorNameKana": "わかめいろ",
+        "ColorCode": "#e0ebaf",
+        "ColorWords": "センチメンタル・社会的順応",
+        "Personality": "傷つきやすいロマンチスト"
+    },
+    {
+        "Birthday": "02/01",
+        "ColorName": "コーンフラワーブルー",
+        "ColorNameKana": "Cone Flower Blue",
+        "ColorCode": "#3f4e93",
+        "ColorWords": "文化的・社会的",
+        "Personality": "社会的にも特に認められた芸術家"
+    },
+    {
+        "Birthday": "02/02",
+        "ColorName": "若紫",
+        "ColorNameKana": "わかむらさき",
+        "ColorCode": "#bc64a4",
+        "ColorWords": "想像力・敬慕・直観力",
+        "Personality": "人とはっきり差をつける個性派"
+    },
+    {
+        "Birthday": "02/03",
+        "ColorName": "ディープロイヤルブルー",
+        "ColorNameKana": "Deep Royal Blue",
+        "ColorCode": "#21297e",
+        "ColorWords": "直観力・はにかみ・威厳",
+        "Personality": "自分の価値を知っている生来のプリンセス"
+    },
+    {
+        "Birthday": "02/04",
+        "ColorName": "紅藤色",
+        "ColorNameKana": "べにふじいろ",
+        "ColorCode": "#cca6bf",
+        "ColorWords": "感性・才気煥発・外向性",
+        "Personality": "人と違う自分でいたい個性派"
+    },
+    {
+        "Birthday": "02/05",
+        "ColorName": "パンジーパープル",
+        "ColorNameKana": "Pansy Purple",
+        "ColorCode": "#50347e",
+        "ColorWords": "宗教的・詩的な恍惚・神秘と夢幻",
+        "Personality": "進むべき道を知っている霊感の持ち主"
+    },
+    {
+        "Birthday": "02/06",
+        "ColorName": "ペールライラック",
+        "ColorNameKana": "Peer Lilac",
+        "ColorCode": "#debdd8",
+        "ColorWords": "家庭・表現力・気高さ",
+        "Personality": "人を感動させる力を秘めた人"
+    },
+    {
+        "Birthday": "02/07",
+        "ColorName": "モーベット",
+        "ColorNameKana": "Mobed",
+        "ColorCode": "#b269a1",
+        "ColorWords": "自主性・天才的資質・感性",
+        "Personality": "ひたむきで使命感のある期待の星"
+    },
+    {
+        "Birthday": "02/08",
+        "ColorName": "バーガンディー",
+        "ColorNameKana": "Burgundy",
+        "ColorCode": "#6c2735",
+        "ColorWords": "情熱的な瞳・可愛らしさ・思慮深さ",
+        "Personality": "ものまね上手な可愛いいたずら者"
+    },
+    {
+        "Birthday": "02/09",
+        "ColorName": "フクシャパープル",
+        "ColorNameKana": "Fuchsia Purple",
+        "ColorCode": "#ea4a6e",
+        "ColorWords": "国際感覚・活発・指導者",
+        "Personality": "活躍する人間・味あふれる熱血漢"
+    },
+    {
+        "Birthday": "02/10",
+        "ColorName": "ローズレッド",
+        "ColorNameKana": "Rose Red",
+        "ColorCode": "#ea618e",
+        "ColorWords": "愛情・感受性・知性",
+        "Personality": "人を助けて励ます優しい人"
+    },
+    {
+        "Birthday": "02/11",
+        "ColorName": "紅色",
+        "ColorNameKana": "べにいろ",
+        "ColorCode": "#d3336f",
+        "ColorWords": "開放的・単純明快・表現力",
+        "Personality": "何ごとにも心から喜べる素直な人"
+    },
+    {
+        "Birthday": "02/12",
+        "ColorName": "カーミン",
+        "ColorNameKana": "Carmine",
+        "ColorCode": "#d5345e",
+        "ColorWords": "外交的・情熱・激しい感情",
+        "Personality": "もの静かでも積極的な行動派"
+    },
+    {
+        "Birthday": "02/13",
+        "ColorName": "鶯色",
+        "ColorNameKana": "うぐいるいろ",
+        "ColorCode": "#585b54",
+        "ColorWords": "家庭・几帳面・向上心",
+        "Personality": "自分の価値観を大切に育てる芸術家"
+    },
+    {
+        "Birthday": "02/14",
+        "ColorName": "海松色",
+        "ColorNameKana": "みるいろ",
+        "ColorCode": "#726d40",
+        "ColorWords": "二律背反・誠実・気品と威厳",
+        "Personality": "都会的なセンスを備えた人"
+    },
+    {
+        "Birthday": "02/15",
+        "ColorName": "勿忘草色",
+        "ColorNameKana": "わすれなぐさいろ",
+        "ColorCode": "#89c3eb",
+        "ColorWords": "友情・平和・調和",
+        "Personality": "行動前に２度考える慎重派"
+    },
+    {
+        "Birthday": "02/16",
+        "ColorName": "スモークブルー",
+        "ColorNameKana": "Smoke Blue",
+        "ColorCode": "#a4c1d7",
+        "ColorWords": "謙虚・堅実・克己心",
+        "Personality": "常に自分を高めようとする努力家"
+    },
+    {
+        "Birthday": "02/17",
+        "ColorName": "スマルト",
+        "ColorNameKana": "Smalto",
+        "ColorCode": "#4c5e74",
+        "ColorWords": "根気・完全主義・品格",
+        "Personality": "ものごとにのめりこんでしまう熱中タイプ"
+    },
+    {
+        "Birthday": "02/18",
+        "ColorName": "チョコレート",
+        "ColorNameKana": "Chocolate",
+        "ColorCode": "#6c3524",
+        "ColorWords": "不屈の魂・ひらめき・自己正当化",
+        "Personality": "自分の考えの正しさを主張できる人"
+    },
+    {
+        "Birthday": "02/19",
+        "ColorName": "紺色",
+        "ColorNameKana": "こんいろ",
+        "ColorCode": "#223a70",
+        "ColorWords": "大器・指導者・感性",
+        "Personality": "自分が向かっている道を知る識者"
+    },
+    {
+        "Birthday": "02/20",
+        "ColorName": "鳥の子色",
+        "ColorNameKana": "とりのこいろ",
+        "ColorCode": "#fff1cf",
+        "ColorWords": "魅惑・個性・節度",
+        "Personality": "独創的なセンスを持つ個性派"
+    },
+    {
+        "Birthday": "02/21",
+        "ColorName": "ライムライト",
+        "ColorNameKana": "Lime Light",
+        "ColorCode": "#fff799",
+        "ColorWords": "魅惑・個性・節度",
+        "Personality": "強烈な個性と主張を持つ人"
+    },
+    {
+        "Birthday": "02/22",
+        "ColorName": "鬱金色",
+        "ColorNameKana": "うこんいろ",
+        "ColorCode": "#fabf14",
+        "ColorWords": "感性・楽しい雰囲気・芸術的才能",
+        "Personality": "楽しく目新しさを追求する楽天家"
+    },
+    {
+        "Birthday": "02/23",
+        "ColorName": "菜の花色",
+        "ColorNameKana": "なのはないろ",
+        "ColorCode": "#ffec47",
+        "ColorWords": "人道主義・不言実行・ロマンチスト",
+        "Personality": "人々に歓喜の爆発を起こさせる行動派"
+    },
+    {
+        "Birthday": "02/24",
+        "ColorName": "リードグリーン",
+        "ColorNameKana": "Lead Green",
+        "ColorCode": "#d8e2ae",
+        "ColorWords": "リラックス・社交的・前向き",
+        "Personality": "いつも希望を抱き前に進もうとする人"
+    },
+    {
+        "Birthday": "02/25",
+        "ColorName": "ミストホワイト",
+        "ColorNameKana": "Mist White",
+        "ColorCode": "#e5e8e1",
+        "ColorWords": "目的・感銘・名誉",
+        "Personality": "ねばり強さで目的をとげる努力家"
+    },
+    {
+        "Birthday": "02/26",
+        "ColorName": "裏葉色",
+        "ColorNameKana": "うらばいろ",
+        "ColorCode": "#becebc",
+        "ColorWords": "円満・努力・正確",
+        "Personality": "難問にも全力を傾ける挑戦者"
+    },
+    {
+        "Birthday": "02/27",
+        "ColorName": "柳茶",
+        "ColorNameKana": "やなぎちゃ",
+        "ColorCode": "#a1a46d",
+        "ColorWords": "楽しい会話・おおざっぱ・開放",
+        "Personality": "しきたりに束縛されない人気者"
+    },
+    {
+        "Birthday": "02/28",
+        "ColorName": "オリーブグリーン",
+        "ColorNameKana": "Olive Green",
+        "ColorCode": "#5f6527",
+        "ColorWords": "感性・堅実・優雅",
+        "Personality": "人との交流を大切にする人"
+    },
+    {
+        "Birthday": "02/29",
+        "ColorName": "アイビーグリーン",
+        "ColorNameKana": "Ivy Green",
+        "ColorCode": "#578a3d",
+        "ColorWords": "道徳・知能・構想",
+        "Personality": "友だちの面倒をよくみる人"
+    },
+    {
+        "Birthday": "03/01",
+        "ColorName": "一斤染",
+        "ColorNameKana": "いっこんぞめ",
+        "ColorCode": "#f5b199",
+        "ColorWords": "責任感・気くばり・優しさ",
+        "Personality": "人を活気づけてくれる元気者"
+    },
+    {
+        "Birthday": "03/02",
+        "ColorName": "ベビーピンク",
+        "ColorNameKana": "Bby Pink",
+        "ColorCode": "#fdede4",
+        "ColorWords": "理想・家庭的温かさ・包容力",
+        "Personality": "幸せな家庭を彷彿とさせる人"
+    },
+    {
+        "Birthday": "03/03",
+        "ColorName": "鴇色",
+        "ColorNameKana": "ときいろ",
+        "ColorCode": "#f4b3c2",
+        "ColorWords": "精神的恋愛・礼儀・あでやかさ",
+        "Personality": "愛されていることを知ると美しく輝く人"
+    },
+    {
+        "Birthday": "03/04",
+        "ColorName": "ポピーレッド",
+        "ColorNameKana": "Poppy Red",
+        "ColorCode": "#ea5550",
+        "ColorWords": "主役・高尚・敏感",
+        "Personality": "平均的では満足しない人"
+    },
+    {
+        "Birthday": "03/05",
+        "ColorName": "チェリーレッド",
+        "ColorNameKana": "Cherry Red",
+        "ColorCode": "#cf0125",
+        "ColorWords": "現実主義・豊かな感性・情熱",
+        "Personality": "地に足のついた考えを持つしっかり者"
+    },
+    {
+        "Birthday": "03/06",
+        "ColorName": "桜色",
+        "ColorNameKana": "さくらいろ",
+        "ColorCode": "#fef4f4",
+        "ColorWords": "愛情・思いやり・健全",
+        "Personality": "人を感動させる力を秘めた人"
+    },
+    {
+        "Birthday": "03/07",
+        "ColorName": "サーモンピンク",
+        "ColorNameKana": "Salmon Pink",
+        "ColorCode": "#f3a68c",
+        "ColorWords": "優しさ・気づかい・感性",
+        "Personality": "人の幸せを心から願える人格者"
+    },
+    {
+        "Birthday": "03/08",
+        "ColorName": "紅梅色",
+        "ColorNameKana": "こうばいいろ",
+        "ColorCode": "#f2a0a1",
+        "ColorWords": "愛情・安定した精神・女性らしさ",
+        "Personality": "愛に満ちあふれた女らしい人"
+    },
+    {
+        "Birthday": "03/09",
+        "ColorName": "珊瑚色",
+        "ColorNameKana": "さんごいろ",
+        "ColorCode": "#f5b1aa",
+        "ColorWords": "意欲旺盛・勇猛果敢・外交的",
+        "Personality": "憧れを実現しようと試みる行動派"
+    },
+    {
+        "Birthday": "03/10",
+        "ColorName": "シグナルレッド",
+        "ColorNameKana": "Signal Red",
+        "ColorCode": "#e8383d",
+        "ColorWords": "ロマンチスト・持続力・指導者",
+        "Personality": "多くの分野で活躍する元気者"
+    },
+    {
+        "Birthday": "03/11",
+        "ColorName": "砥粉色",
+        "ColorNameKana": "とのこいろ",
+        "ColorCode": "#f4dda5",
+        "ColorWords": "慈悲深さ・情熱・手際よさ",
+        "Personality": "温かく寛大な心の持ち主"
+    },
+    {
+        "Birthday": "03/12",
+        "ColorName": "オレンジバーミリオン",
+        "ColorNameKana": "Orange Vermillion",
+        "ColorCode": "#e65454",
+        "ColorWords": "無邪気・感性・純粋",
+        "Personality": "人を正しい方向に導く天使"
+    },
+    {
+        "Birthday": "03/13",
+        "ColorName": "柿色",
+        "ColorNameKana": "かきいろ",
+        "ColorCode": "#ed6d3d",
+        "ColorWords": "健やかな心身・組織力・大望",
+        "Personality": "健やかな自分をアピールする元気者"
+    },
+    {
+        "Birthday": "03/14",
+        "ColorName": "スカーレッド",
+        "ColorNameKana": "Scar Red",
+        "ColorCode": "#e23620",
+        "ColorWords": "エネルギー・明朗活発・情熱",
+        "Personality": "はなやかで活気に満ちた行動派"
+    },
+    {
+        "Birthday": "03/15",
+        "ColorName": "ルージュ",
+        "ColorNameKana": "Rouge",
+        "ColorCode": "#d11c1e",
+        "ColorWords": "活発・健康・外向性",
+        "Personality": "自発的にアクションを起こす情熱家"
+    },
+    {
+        "Birthday": "03/16",
+        "ColorName": "薄紅藤",
+        "ColorNameKana": "うすべにふじ",
+        "ColorCode": "#d2a4c8",
+        "ColorWords": "直観力・精神高揚・気高さ",
+        "Personality": "心も体も女性らしい素直な人"
+    },
+    {
+        "Birthday": "03/17",
+        "ColorName": "モーブ",
+        "ColorNameKana": "Mauve",
+        "ColorCode": "#915da3",
+        "ColorWords": "想像力・生活センス・エキゾチック",
+        "Personality": "次々と新しいものをつくり出す創造者"
+    },
+    {
+        "Birthday": "03/18",
+        "ColorName": "カンパヌラパープル",
+        "ColorNameKana": "Campanula Purple",
+        "ColorCode": "#985b9e",
+        "ColorWords": "鋭敏・神秘的・高貴",
+        "Personality": "あらゆるものに敏感な神秘的な人"
+    },
+    {
+        "Birthday": "03/19",
+        "ColorName": "ビオレ",
+        "ColorNameKana": "Biore",
+        "ColorCode": "#581074",
+        "ColorWords": "落ち着き・健康・安定感",
+        "Personality": "湖のように心が静かで美しい人"
+    },
+    {
+        "Birthday": "03/20",
+        "ColorName": "古代紫",
+        "ColorNameKana": "こだいむらさき",
+        "ColorCode": "#895b8a",
+        "ColorWords": "落ち着き・品位・宗教的な高貴さ",
+        "Personality": "いつも冷静にものごとを判断できる人"
+    },
+    {
+        "Birthday": "03/21",
+        "ColorName": "ペールオーキッド",
+        "ColorNameKana": "Peer Orchid",
+        "ColorCode": "#aaa7d0",
+        "ColorWords": "天賦の才能・神秘的・世事に無関係",
+        "Personality": "自分のまわりの環境を美しく変える人"
+    },
+    {
+        "Birthday": "03/22",
+        "ColorName": "ディープモーベット",
+        "ColorNameKana": "Deep Moo Bet",
+        "ColorCode": "#ba64a0",
+        "ColorWords": "品格・デリケート・控えめ",
+        "Personality": "どこでもだれからも好かれる人気者"
+    },
+    {
+        "Birthday": "03/23",
+        "ColorName": "江戸紫",
+        "ColorNameKana": "えどむらさき",
+        "ColorCode": "#745399",
+        "ColorWords": "安定・洗練・芸術的才能",
+        "Personality": "けっして思い上がらない品格者"
+    },
+    {
+        "Birthday": "03/24",
+        "ColorName": "マロー",
+        "ColorNameKana": "Marrow",
+        "ColorCode": "#934491",
+        "ColorWords": "直感的性質・高尚な趣味・主観的",
+        "Personality": "心の友人を求めるロマンチス"
+    },
+    {
+        "Birthday": "03/25",
+        "ColorName": "ワインレッド",
+        "ColorNameKana": "Wine Red",
+        "ColorCode": "#b33e5c",
+        "ColorWords": "主役の風格・個性・自信",
+        "Personality": "直観力と威厳で名を馳せる芸術家"
+    },
+    {
+        "Birthday": "03/26",
+        "ColorName": "シルバーグリーン",
+        "ColorNameKana": "Silver Green",
+        "ColorCode": "#cae2c6",
+        "ColorWords": "新たな可能性・行動力・明哲な判断力",
+        "Personality": "果敢に取り組む努力家"
+    },
+    {
+        "Birthday": "03/27",
+        "ColorName": "オパールグリーン",
+        "ColorNameKana": "Opal Green",
+        "ColorCode": "#bee0ce",
+        "ColorWords": "天賦の美貌・精神の陶冶・自己表現",
+        "Personality": "花の生命の広がりのように美しい人"
+    },
+    {
+        "Birthday": "03/28",
+        "ColorName": "ペールアクア",
+        "ColorNameKana": "Peer Aqua",
+        "ColorCode": "#a7d3cf",
+        "ColorWords": "感謝・教養・思いやり",
+        "Personality": "葉から不思議な香りが漂う人"
+    },
+    {
+        "Birthday": "03/29",
+        "ColorName": "スプレーグリーン",
+        "ColorNameKana": "Spray Green",
+        "ColorCode": "#a3d3dd",
+        "ColorWords": "謙虚・きまじめ・専門的知識",
+        "Personality": "複雑な問題もあっさり片づける人"
+    },
+    {
+        "Birthday": "03/30",
+        "ColorName": "パステルブルー",
+        "ColorNameKana": "Pastel Blue",
+        "ColorCode": "#49bdf0",
+        "ColorWords": "トレンド・情熱と安らぎ",
+        "Personality": "創作力を培うロマンチスト"
+    },
+    {
+        "Birthday": "03/31",
+        "ColorName": "ストロー",
+        "ColorNameKana": "Straw",
+        "ColorCode": "#ece093",
+        "ColorWords": "激励・深い感動・歓喜と悲哀",
+        "Personality": "自由に行動できるスポーツマン"
+    },
+    {
+        "Birthday": "04/01",
+        "ColorName": "薄桜",
+        "ColorNameKana": "うすざくら",
+        "ColorCode": "#fdeff2",
+        "ColorWords": "洗練・友人・ほほえみ",
+        "Personality": "幸せな雰囲気をつくり出すロマンチスト"
+    },
+    {
+        "Birthday": "04/02",
+        "ColorName": "シェルピンク",
+        "ColorNameKana": "Shell Pink",
+        "ColorCode": "#fbdac8",
+        "ColorWords": "詩的情緒・頭脳明晰・純粋",
+        "Personality": "天才的感性表現を持ち合わせた努力家"
+    },
+    {
+        "Birthday": "04/03",
+        "ColorName": "フクシャピンク",
+        "ColorNameKana": "Fuchsia Pink",
+        "ColorCode": "#f5a0bd",
+        "ColorWords": "思いやり・無邪気・想像力と技巧",
+        "Personality": "トレンドを読み取る感覚にすぐれた人"
+    },
+    {
+        "Birthday": "04/04",
+        "ColorName": "ディープオーキッドピンク",
+        "ColorNameKana": "Deep Orchid Pink",
+        "ColorCode": "#e383a4",
+        "ColorWords": "情緒・社交的・新たな目標",
+        "Personality": "温かいもてなしに満ちた人"
+    },
+    {
+        "Birthday": "04/05",
+        "ColorName": "青藤色",
+        "ColorNameKana": "あおふじいろ",
+        "ColorCode": "#84a2d4",
+        "ColorWords": "人づきあい・秘めた情熱・洗練",
+        "Personality": "全身に注意が行き届いたベストドレッサー"
+    },
+    {
+        "Birthday": "04/06",
+        "ColorName": "チョークブルー",
+        "ColorNameKana": "Chalk Blue",
+        "ColorCode": "#68a9cf",
+        "ColorWords": "無邪気・澄んだ視線・洗練",
+        "Personality": "現実から遊離して美しさを求める人"
+    },
+    {
+        "Birthday": "04/07",
+        "ColorName": "白百合",
+        "ColorNameKana": "しらゆり",
+        "ColorCode": "#f1f5dc",
+        "ColorWords": "多才・内向性・創意工夫",
+        "Personality": "いろいろなことに興味を抱いて工夫する努力家"
+    },
+    {
+        "Birthday": "04/08",
+        "ColorName": "薄緑色",
+        "ColorNameKana": "うすみどりいろ",
+        "ColorCode": "#69b076",
+        "ColorWords": "希望・用意周到・敬愛",
+        "Personality": "ほのぼのとした存在感を漂わせる人"
+    },
+    {
+        "Birthday": "04/09",
+        "ColorName": "支子色",
+        "ColorNameKana": "くちなし",
+        "ColorCode": "#fbca4d",
+        "ColorWords": "スポーツ感覚・流れる動作・高い知見",
+        "Personality": "与えられた状況に応じて行動できる人"
+    },
+    {
+        "Birthday": "04/10",
+        "ColorName": "パンプキン",
+        "ColorNameKana": "Pumpkin",
+        "ColorCode": "#e5a323",
+        "ColorWords": "澄んだ瞳・清純・緻密な志向",
+        "Personality": "若い世代の感性を究め尽くした先駆者"
+    },
+    {
+        "Birthday": "04/11",
+        "ColorName": "蒸栗色",
+        "ColorNameKana": "むしくりいろ",
+        "ColorCode": "#ecdecf",
+        "ColorWords": "努力家・リアリスト・陽気",
+        "Personality": "世事に通じた堅実な職人肌"
+    },
+    {
+        "Birthday": "04/12",
+        "ColorName": "利休白茶",
+        "ColorNameKana": "りきゅうしろちゃ",
+        "ColorCode": "#a29779",
+        "ColorWords": "伝統・技巧・主張",
+        "Personality": "伝統を重んじる技術ある自信家"
+    },
+    {
+        "Birthday": "04/13",
+        "ColorName": "フォロスティグレイ",
+        "ColorNameKana": "Frosty Gray",
+        "ColorCode": "#e8ece9",
+        "ColorWords": "楽観的・明るさ・哲学的",
+        "Personality": "多感で豊かな生活経験を持つユーモア人"
+    },
+    {
+        "Birthday": "04/14",
+        "ColorName": "鼠色",
+        "ColorNameKana": "ねずみいろ",
+        "ColorCode": "#949495",
+        "ColorWords": "美貌・しなやかさ・思いやり",
+        "Personality": "人の魂をとりこにする天女のような人"
+    },
+    {
+        "Birthday": "04/15",
+        "ColorName": "ペールミストホワイト",
+        "ColorNameKana": "Pale Mist White",
+        "ColorCode": "#d5dad4",
+        "ColorWords": "中立不偏・保守的・伝統",
+        "Personality": "義理人情に厚く正義感に満ちた人"
+    },
+    {
+        "Birthday": "04/16",
+        "ColorName": "スカイグレイ",
+        "ColorNameKana": "Sky Gray",
+        "ColorCode": "#cbd0d3",
+        "ColorWords": "穏健・快活・謙遜",
+        "Personality": "仕事をそつなくこなす穏健派"
+    },
+    {
+        "Birthday": "04/17",
+        "ColorName": "バトルシップグレイ",
+        "ColorNameKana": "Battleship Gray",
+        "ColorCode": "#898989",
+        "ColorWords": "実直・責任感・客観的",
+        "Personality": "どんな障害にもたじろがない堅実派"
+    },
+    {
+        "Birthday": "04/18",
+        "ColorName": "スレートグレイ",
+        "ColorNameKana": "Slate Gray",
+        "ColorCode": "#626063",
+        "ColorWords": "機知・誇り・良心",
+        "Personality": "喜びを得るために猛進する行動派"
+    },
+    {
+        "Birthday": "04/19",
+        "ColorName": "消炭色",
+        "ColorNameKana": "けしずみいろ",
+        "ColorCode": "#524e4d",
+        "ColorWords": "厳粛・誠実・技量",
+        "Personality": "洞察力と技量を兼ね備えた人"
+    },
+    {
+        "Birthday": "04/20",
+        "ColorName": "若苗色",
+        "ColorNameKana": "わかなえいろ",
+        "ColorCode": "#c7dc68",
+        "ColorWords": "規律・言葉づかい・愛情",
+        "Personality": "清らかでキラキラした感性の持ち主"
+    },
+    {
+        "Birthday": "04/21",
+        "ColorName": "若菜色",
+        "ColorNameKana": "わかないろ",
+        "ColorCode": "#d8e698",
+        "ColorWords": "温厚・誠意・センチメンタル",
+        "Personality": "常に率直な姿勢で臨む素直な人"
+    },
+    {
+        "Birthday": "04/22",
+        "ColorName": "鸚緑",
+        "ColorNameKana": "おうりょく",
+        "ColorCode": "#2aa74b",
+        "ColorWords": "リーダーシップ・指導者",
+        "Personality": "働くことが好きな人"
+    },
+    {
+        "Birthday": "04/23",
+        "ColorName": "葦葉色",
+        "ColorNameKana": "あしばいろ",
+        "ColorCode": "#88cb9d",
+        "ColorWords": "調和・順応・人間関係",
+        "Personality": "社会の信用を集めるしっかり者"
+    },
+    {
+        "Birthday": "04/24",
+        "ColorName": "スプラウト",
+        "ColorNameKana": "Sprout",
+        "ColorCode": "#a3d49c",
+        "ColorWords": "優雅・優しさ・文学",
+        "Personality": "文学に心ひかれる優しい人"
+    },
+    {
+        "Birthday": "04/25",
+        "ColorName": "エルブ",
+        "ColorNameKana": "Elubu",
+        "ColorCode": "#79c288",
+        "ColorWords": "繊細・スポーツ・時間",
+        "Personality": "仕事に手ごたえを感じる挑戦者"
+    },
+    {
+        "Birthday": "04/26",
+        "ColorName": "ディープピーグリーン",
+        "ColorNameKana": "Deep Pea Green",
+        "ColorCode": "#79c266",
+        "ColorWords": "向上心・人のため・完成の喜び",
+        "Personality": "才能を磨くことを忘れない努力家"
+    },
+    {
+        "Birthday": "04/27",
+        "ColorName": "エメラルドグリーン",
+        "ColorNameKana": "Emerald Green",
+        "ColorCode": "#00a968",
+        "ColorWords": "人生・経験・鍛錬",
+        "Personality": "夢を求め、挑戦する人"
+    },
+    {
+        "Birthday": "04/28",
+        "ColorName": "ターコイズグリーン",
+        "ColorNameKana": "Turquoise Green",
+        "ColorCode": "#00947a",
+        "ColorWords": "成熟・バランス・創意",
+        "Personality": "多種多様な計画を生み出すアイデアマン"
+    },
+    {
+        "Birthday": "04/29",
+        "ColorName": "薄浅葱",
+        "ColorNameKana": "うすあさぎ",
+        "ColorCode": "#00a6af",
+        "ColorWords": "ナイーブ・神秘性・癒し",
+        "Personality": "ナイーブな心の持ち主"
+    },
+    {
+        "Birthday": "04/30",
+        "ColorName": "アジュールブルー",
+        "ColorNameKana": "Azure Blue",
+        "ColorCode": "#00b2bc",
+        "ColorWords": "助け合い・行動・成長",
+        "Personality": "成長する人（満足することなく、妥協もしない人）"
+    },
+    {
+        "Birthday": "05/01",
+        "ColorName": "ターコイズ",
+        "ColorNameKana": "Turquoise",
+        "ColorCode": "#009b9f",
+        "ColorWords": "機敏な行動・叙情性・失敗を恐れない",
+        "Personality": "誰からも愛される人気者"
+    },
+    {
+        "Birthday": "05/02",
+        "ColorName": "マラカイトグリーン",
+        "ColorNameKana": "Malachite Green",
+        "ColorCode": "#009854",
+        "ColorWords": "情熱的な瞳・ユーモア・静寂",
+        "Personality": "社交的に振る舞いながらも喧騒を嫌う自然派"
+    },
+    {
+        "Birthday": "05/03",
+        "ColorName": "ティールグリーン",
+        "ColorNameKana": "Tyr Green",
+        "ColorCode": "#01686d",
+        "ColorWords": "大地への憧憬・ロマンチック・牧歌的",
+        "Personality": "澄んだ小川や耕地にあこがれる牧歌的な人"
+    },
+    {
+        "Birthday": "05/04",
+        "ColorName": "小鴨色",
+        "ColorNameKana": "こがもいろ",
+        "ColorCode": "#014127",
+        "ColorWords": "再生能力・経営力・刷新力",
+        "Personality": "正々堂々とした勝利のカギをにぎる人物"
+    },
+    {
+        "Birthday": "05/05",
+        "ColorName": "水色",
+        "ColorNameKana": "みずいろ",
+        "ColorCode": "#bce2e8",
+        "ColorWords": "奔放な表現力・洞察力・主役",
+        "Personality": "理念を形にできる芸術家"
+    },
+    {
+        "Birthday": "05/06",
+        "ColorName": "フォゲットミーナットブルー",
+        "ColorNameKana": "Foget Me Nut Blue",
+        "ColorCode": "#70c6f5",
+        "ColorWords": "直観力・優しさ・アイデア",
+        "Personality": "女性らしさを忘れずに才能を発揮する人"
+    },
+    {
+        "Birthday": "05/07",
+        "ColorName": "群青色",
+        "ColorNameKana": "ぐんじょういろ",
+        "ColorCode": "#4c6cb3",
+        "ColorWords": "思慮深さ・規律正しさ・しなやか",
+        "Personality": "自分の長所を理解し称賛を浴びるマドンナ"
+    },
+    {
+        "Birthday": "05/08",
+        "ColorName": "千歳みどり",
+        "ColorNameKana": "ちとせみどり",
+        "ColorCode": "#316745",
+        "ColorWords": "丁寧・辛抱・謙遜",
+        "Personality": "熟考してから発言する慎重派"
+    },
+    {
+        "Birthday": "05/09",
+        "ColorName": "パラキートグリーン",
+        "ColorNameKana": "Parakeet Green",
+        "ColorCode": "#2cb232",
+        "ColorWords": "調和・バランス",
+        "Personality": "調和とバランスのとれた行動派"
+    },
+    {
+        "Birthday": "05/10",
+        "ColorName": "エッグシェル",
+        "ColorNameKana": "Egg Shell",
+        "ColorCode": "#f5f6ca",
+        "ColorWords": "少女らしさ・感傷的・寛大",
+        "Personality": "たわむれの恋におちいらないしっかり者"
+    },
+    {
+        "Birthday": "05/11",
+        "ColorName": "レタスグリーン",
+        "ColorNameKana": "Lettuce Green",
+        "ColorCode": "#d1de4c",
+        "ColorWords": "新しもの好き・挑戦・話好き",
+        "Personality": "失敗を覚悟で新しいことに臨む挑戦者"
+    },
+    {
+        "Birthday": "05/12",
+        "ColorName": "シャルトルーズイエロー",
+        "ColorNameKana": "Chartreuse Yellow",
+        "ColorCode": "#e3e548",
+        "ColorWords": "グルメ・社交的・田園的生活",
+        "Personality": "誠実な人柄と社交性が混在した人"
+    },
+    {
+        "Birthday": "05/13",
+        "ColorName": "枯草色",
+        "ColorNameKana": "かれくさいろ",
+        "ColorCode": "#e4dc8a",
+        "ColorWords": "正確な理解力・アイデアの具体化",
+        "Personality": "自分の考えを適確に言葉にできる才人"
+    },
+    {
+        "Birthday": "05/14",
+        "ColorName": "オリーブ",
+        "ColorNameKana": "Olive",
+        "ColorCode": "#72640c",
+        "ColorWords": "自然・優しさ・生活を見すえる眼",
+        "Personality": "花や草を愛し育てる喜びを知る自然派"
+    },
+    {
+        "Birthday": "05/15",
+        "ColorName": "コロニアルイエロー",
+        "ColorNameKana": "Colonialism Yellow",
+        "ColorCode": "#d0c67c",
+        "ColorWords": "良心・向上心・体系化",
+        "Personality": "常に知識を蓄える心を持つ向上心豊かな人"
+    },
+    {
+        "Birthday": "05/16",
+        "ColorName": "ペールマスタード",
+        "ColorNameKana": "Peer Mustard",
+        "ColorCode": "#a49627",
+        "ColorWords": "実直な生活・細心の注意・強情な気性",
+        "Personality": "堅実でガンコな気質の名人肌"
+    },
+    {
+        "Birthday": "05/17",
+        "ColorName": "ゴールデンオーカー",
+        "ColorNameKana": "Golden Ocher",
+        "ColorCode": "#8d6f2f",
+        "ColorWords": "明敏さ・抜け目なさ・洞察力",
+        "Personality": "自分の見解を譲ろうとしないガンコ者"
+    },
+    {
+        "Birthday": "05/18",
+        "ColorName": "オリーブ茶",
+        "ColorNameKana": "おりーぶちゃ",
+        "ColorCode": "#464646",
+        "ColorWords": "適確な発言・学識・保守的",
+        "Personality": "知識が充実した穏健派"
+    },
+    {
+        "Birthday": "05/19",
+        "ColorName": "千歳茶",
+        "ColorNameKana": "せんさいちゃ",
+        "ColorCode": "#494a41",
+        "ColorWords": "中立不偏・公平無私・バランス",
+        "Personality": "どんな問題にも対応できるすぐれた者"
+    },
+    {
+        "Birthday": "05/20",
+        "ColorName": "ディープアクア",
+        "ColorNameKana": "Deep Aqua",
+        "ColorCode": "#8ccab0",
+        "ColorWords": "センチメンタル・美しい容貌",
+        "Personality": "センチメンタルな幸福の女神"
+    },
+    {
+        "Birthday": "05/21",
+        "ColorName": "緑賞色",
+        "ColorNameKana": "りょくしょういろ",
+        "ColorCode": "#47885e",
+        "ColorWords": "頭脳明晰・技巧・適応能力",
+        "Personality": "常に刺激や感動を求め続ける前向きな人"
+    },
+    {
+        "Birthday": "05/22",
+        "ColorName": "スプルースグリーン",
+        "ColorNameKana": "Spruce Green",
+        "ColorCode": "#036122",
+        "ColorWords": "律儀な働き者・ハッピーエンド・バランス",
+        "Personality": "無償の愛情にあふれた人情家"
+    },
+    {
+        "Birthday": "05/23",
+        "ColorName": "ボトルグリーン",
+        "ColorNameKana": "Bottle Green",
+        "ColorCode": "#034415",
+        "ColorWords": "自然・個性・寛容",
+        "Personality": "いつも朗らかで人をとがめない心の広い人"
+    },
+    {
+        "Birthday": "05/24",
+        "ColorName": "サイプレスグリーン",
+        "ColorNameKana": "Cypress Green",
+        "ColorCode": "#264939",
+        "ColorWords": "調和と協力・気くばり・まとめ役",
+        "Personality": "みんなから信頼を集めるあねご肌"
+    },
+    {
+        "Birthday": "05/25",
+        "ColorName": "ネープルズイエロー",
+        "ColorNameKana": "Naples Yellow",
+        "ColorCode": "#face9d",
+        "ColorWords": "朗らか・順風満帆・スポーツ",
+        "Personality": "面倒見がよく人に慕われる人気者"
+    },
+    {
+        "Birthday": "05/26",
+        "ColorName": "マリーゴールドイエロー",
+        "ColorNameKana": "Mari Gold Yellow",
+        "ColorCode": "#f9cc77",
+        "ColorWords": "生命力・ロマンチスト・情熱",
+        "Personality": "太陽のように陽気な健康美の麗人"
+    },
+    {
+        "Birthday": "05/27",
+        "ColorName": "山吹色",
+        "ColorNameKana": "やまぶきいろ",
+        "ColorCode": "#f8b500",
+        "ColorWords": "たくましさ・英知・束縛からの解放",
+        "Personality": "陽気で温かい心を持つ自由を愛する人"
+    },
+    {
+        "Birthday": "05/28",
+        "ColorName": "オールドゴールド",
+        "ColorNameKana": "Old Gold",
+        "ColorCode": "#b36029",
+        "ColorWords": "伝統の継承・観察力・仕事を趣味に",
+        "Personality": "仕事を楽しみながらできるしっかり者"
+    },
+    {
+        "Birthday": "05/29",
+        "ColorName": "コーヒーブラウン",
+        "ColorNameKana": "Coffee Brown",
+        "ColorCode": "#7a5347",
+        "ColorWords": "規律・模範・自信",
+        "Personality": "常に向上できる技量を持った人"
+    },
+    {
+        "Birthday": "05/30",
+        "ColorName": "灰桜",
+        "ColorNameKana": "はいざくら",
+        "ColorCode": "#e8d3d1",
+        "ColorWords": "ロマンチスト・知識・思いやり",
+        "Personality": "優雅さと洗練されたシルエットの持ち主"
+    },
+    {
+        "Birthday": "05/31",
+        "ColorName": "薄紅",
+        "ColorNameKana": "うすべに",
+        "ColorCode": "#f0908d",
+        "ColorWords": "豊かな教養・崇高な理想・才媛",
+        "Personality": "ものごとをテキパキとこなす敏腕家"
+    },
+    {
+        "Birthday": "06/01",
+        "ColorName": "ペールクロッカス",
+        "ColorNameKana": "Peer Crocus",
+        "ColorCode": "#bea2ca",
+        "ColorWords": "女性らしさ・自分への投資・うぬぼれ",
+        "Personality": "気高さを持つ女性の中の女性"
+    },
+    {
+        "Birthday": "06/02",
+        "ColorName": "菫色",
+        "ColorNameKana": "すみれいろ",
+        "ColorCode": "#7058a3",
+        "ColorWords": "気まぐれ・気前・チャーミング",
+        "Personality": "けっして媚びへつらわない気高い女性"
+    },
+    {
+        "Birthday": "06/03",
+        "ColorName": "プルプル",
+        "ColorNameKana": "Pluplu",
+        "ColorCode": "#5c1767",
+        "ColorWords": "のんきな・真理の探究・孤独な闘い",
+        "Personality": "常にバランスを心がける人"
+    },
+    {
+        "Birthday": "06/04",
+        "ColorName": "ペールホワイトリリー",
+        "ColorNameKana": "Pale White Lily",
+        "ColorCode": "#f7f7d9",
+        "ColorWords": "無邪気・豊かな才能・刺激",
+        "Personality": "子ども時代に戻る願望を持つ純真な心の持ち主"
+    },
+    {
+        "Birthday": "06/05",
+        "ColorName": "ペールフレシュグリーン",
+        "ColorNameKana": "Pale Fresh Green",
+        "ColorCode": "#ddeab2",
+        "ColorWords": "規則正しい生活・逆境への強さ",
+        "Personality": "リズムのある生活を楽しむ人"
+    },
+    {
+        "Birthday": "06/06",
+        "ColorName": "メロンイエロー",
+        "ColorNameKana": "Melon Yellow",
+        "ColorCode": "#e0de94",
+        "ColorWords": "人道主義・サービス精神・洞察力",
+        "Personality": "人間関係を大切にする平穏な心の持ち主"
+    },
+    {
+        "Birthday": "06/07",
+        "ColorName": "エルムグリーン",
+        "ColorNameKana": "Elm Green",
+        "ColorCode": "#657d61",
+        "ColorWords": "清廉潔白・強靭な精神力・愛想",
+        "Personality": "コミュニケーション上手な国際派"
+    },
+    {
+        "Birthday": "06/08",
+        "ColorName": "オリーブドラブ",
+        "ColorNameKana": "Olive Drab",
+        "ColorCode": "#665a1a",
+        "ColorWords": "愛情・バランス・語学堪能",
+        "Personality": "他人の見解や行為を寛容に受け入れられる人"
+    },
+    {
+        "Birthday": "06/09",
+        "ColorName": "クリーム",
+        "ColorNameKana": "Cream",
+        "ColorCode": "#fff8a8",
+        "ColorWords": "身だしなみ・洗練・品格",
+        "Personality": "見目よい容姿が周囲の注目を集める品格者"
+    },
+    {
+        "Birthday": "06/10",
+        "ColorName": "レモンイエロー",
+        "ColorNameKana": "Lemon Yellow",
+        "ColorCode": "#fff352",
+        "ColorWords": "明るさ・現実・経営力",
+        "Personality": "明るくまわりの人を元気づける自信家"
+    },
+    {
+        "Birthday": "06/11",
+        "ColorName": "黄水仙",
+        "ColorNameKana": "きすいせん",
+        "ColorCode": "#f6d700",
+        "ColorWords": "学問・研究開発・企画力",
+        "Personality": "最先端に立って研究を楽しむ情熱家"
+    },
+    {
+        "Birthday": "06/12",
+        "ColorName": "サフランイエロー",
+        "ColorNameKana": "Saffron Yellow",
+        "ColorCode": "#fac559",
+        "ColorWords": "体力・整った容姿・身だしなみ",
+        "Personality": "バランスよく食べる事を楽しみにする人"
+    },
+    {
+        "Birthday": "06/13",
+        "ColorName": "向日葵色",
+        "ColorNameKana": "ひまわりいろ",
+        "ColorCode": "#fcc800",
+        "ColorWords": "話し好き・健康的な生活・向上心",
+        "Personality": "希望に胸をふくらませる明るい人"
+    },
+    {
+        "Birthday": "06/14",
+        "ColorName": "アイボリー",
+        "ColorNameKana": "Ivory",
+        "ColorCode": "#f8f4e6",
+        "ColorWords": "信頼・誠実・保守的",
+        "Personality": "中間的立場をとる控えめな人"
+    },
+    {
+        "Birthday": "06/15",
+        "ColorName": "ライトアプリコット",
+        "ColorNameKana": "Light Apricot",
+        "ColorCode": "#f7b894",
+        "ColorWords": "我慢強さ・猪突猛進・好奇心",
+        "Personality": "徹底した誠実ぶりが長所の人"
+    },
+    {
+        "Birthday": "06/16",
+        "ColorName": "黄土色",
+        "ColorNameKana": "おうどいろ",
+        "ColorCode": "#c39143",
+        "ColorWords": "評価・刻苦精励・ねばり強さ",
+        "Personality": "努力により目標達成に近づくコツコツ型"
+    },
+    {
+        "Birthday": "06/17",
+        "ColorName": "オールドローズ",
+        "ColorNameKana": "Old Rose",
+        "ColorCode": "#e29399",
+        "ColorWords": "感情的安定感・仕事が趣味",
+        "Personality": "経験を知識と技術として蓄える注目の人"
+    },
+    {
+        "Birthday": "06/18",
+        "ColorName": "マホガニーブラウン",
+        "ColorNameKana": "Mahogany Brown",
+        "ColorCode": "#724943",
+        "ColorWords": "自信・落ち着き・自然との生活",
+        "Personality": "ユーモアのセンスにあふれた堅実派"
+    },
+    {
+        "Birthday": "06/19",
+        "ColorName": "卵色",
+        "ColorNameKana": "たまごいろ",
+        "ColorCode": "#fcd575",
+        "ColorWords": "スポーツ・健康・組織づくり",
+        "Personality": "スポーツ好きで力尽きるまでやる頑張り屋"
+    },
+    {
+        "Birthday": "06/20",
+        "ColorName": "サンライトイエロー",
+        "ColorNameKana": "Sunlight Yellow",
+        "ColorCode": "#f19d45",
+        "ColorWords": "社交的・友人・エネルギー",
+        "Personality": "常に行動をもって先導する模範生"
+    },
+    {
+        "Birthday": "06/21",
+        "ColorName": "金茶",
+        "ColorNameKana": "きんちゃ",
+        "ColorCode": "#f39800",
+        "ColorWords": "芸術・スポーツ・グルメ",
+        "Personality": "料理道具にもこだわる美食家"
+    },
+    {
+        "Birthday": "06/22",
+        "ColorName": "ガーネットブラウン",
+        "ColorNameKana": "Garnet Brown",
+        "ColorCode": "#973b2c",
+        "ColorWords": "エネルギー・忘我の境地・話し好き",
+        "Personality": "人好きで愛想をふりまくはしゃぎ屋"
+    },
+    {
+        "Birthday": "06/23",
+        "ColorName": "海老茶",
+        "ColorNameKana": "えびちゃ",
+        "ColorCode": "#773c30",
+        "ColorWords": "希望・向上心・指導力",
+        "Personality": "人生経験により円熟する寛大な人"
+    },
+    {
+        "Birthday": "06/24",
+        "ColorName": "ライトオーキッドピンク",
+        "ColorNameKana": "Light Orchid Pink",
+        "ColorCode": "#f9bdc5",
+        "ColorWords": "ほほえみ・優しさ・永遠の女性",
+        "Personality": "妖精のように気品にあふれた人"
+    },
+    {
+        "Birthday": "06/25",
+        "ColorName": "ペールチェリーピンク",
+        "ColorNameKana": "Peer Cherry Pink",
+        "ColorCode": "#e1849e",
+        "ColorWords": "勇気・優雅・安らぎ",
+        "Personality": "人の心をとらえる控えめな人"
+    },
+    {
+        "Birthday": "06/26",
+        "ColorName": "カーネーションピンク",
+        "ColorNameKana": "Carnation Pink",
+        "ColorCode": "#eb5381",
+        "ColorWords": "人なつこさ・崇高・プラトニック",
+        "Personality": "好意的で人に親しまれる永遠の恋人"
+    },
+    {
+        "Birthday": "06/27",
+        "ColorName": "ローズピンク",
+        "ColorNameKana": "Rose Pink",
+        "ColorCode": "#f19ca7",
+        "ColorWords": "激しい気性・外交的・希望",
+        "Personality": "周囲の人を激励しチャンスを与える情熱家"
+    },
+    {
+        "Birthday": "06/28",
+        "ColorName": "ペッパーレッド",
+        "ColorNameKana": "Pepper Red",
+        "ColorCode": "#cf0141",
+        "ColorWords": "エネルギー・澄んだ心・友人",
+        "Personality": "気前のよさで人から慕われる才人"
+    },
+    {
+        "Birthday": "06/29",
+        "ColorName": "ベビーブルー",
+        "ColorNameKana": "Baby Blue",
+        "ColorCode": "#bbe2f1",
+        "ColorWords": "平和な心・静穏・思慮深さ",
+        "Personality": "他人のニーズに敏感に対応できる人"
+    },
+    {
+        "Birthday": "06/30",
+        "ColorName": "薄群青",
+        "ColorNameKana": "うすぐんじょう",
+        "ColorCode": "#5383c3",
+        "ColorWords": "個性・理想・向上心",
+        "Personality": "周囲を飲みこむような魅力の持ち主"
+    },
+    {
+        "Birthday": "07/01",
+        "ColorName": "ダックブルー",
+        "ColorNameKana": "Duck Blue",
+        "ColorCode": "#007199",
+        "ColorWords": "平和・空想・環境問題",
+        "Personality": "地球を一つの生命体と考えるエコロジスト"
+    },
+    {
+        "Birthday": "07/02",
+        "ColorName": "コバルトブルー",
+        "ColorNameKana": "Cobalt Blue",
+        "ColorCode": "#0068b7",
+        "ColorWords": "手際よさ・整った身なり・繊細",
+        "Personality": "感性豊かな洗練された都会派"
+    },
+    {
+        "Birthday": "07/03",
+        "ColorName": "インクブルー",
+        "ColorNameKana": "Ink Blue",
+        "ColorCode": "#003f8e",
+        "ColorWords": "気品・耐える人・自信",
+        "Personality": "人も羨むほどの自信家"
+    },
+    {
+        "Birthday": "07/04",
+        "ColorName": "アクア",
+        "ColorNameKana": "Aqua",
+        "ColorCode": "#3fb5d3",
+        "ColorWords": "静穏・崇高・自己発展",
+        "Personality": "心理状態を上手にコントロールできる人"
+    },
+    {
+        "Birthday": "07/05",
+        "ColorName": "ペールサックスブルー",
+        "ColorNameKana": "Peer Sax Blue",
+        "ColorCode": "#4593A0",
+        "ColorWords": "感性・自由・秘めた情熱",
+        "Personality": "愛情に満ちた静かな気質の人"
+    },
+    {
+        "Birthday": "07/06",
+        "ColorName": "新橋色",
+        "ColorNameKana": "しんばしいろ",
+        "ColorCode": "#59b9c6",
+        "ColorWords": "状況判断・意思決定力・信念",
+        "Personality": "前向きな姿勢で仕事も生活も楽しめる人"
+    },
+    {
+        "Birthday": "07/07",
+        "ColorName": "ブルーカナール",
+        "ColorNameKana": "Blue Canal",
+        "ColorCode": "#016171",
+        "ColorWords": "聡明・大望・チャンス",
+        "Personality": "一を聞いて十を知る多才さが魅力の人"
+    },
+    {
+        "Birthday": "07/08",
+        "ColorName": "マリンブルー",
+        "ColorNameKana": "Marine Blue",
+        "ColorCode": "#006888",
+        "ColorWords": "多芸多才・努力・落ち着き",
+        "Personality": "努力により真理を追究する情熱家"
+    },
+    {
+        "Birthday": "07/09",
+        "ColorName": "パールホワイト",
+        "ColorNameKana": "Pearl White",
+        "ColorCode": "#f7f6f5",
+        "ColorWords": "秘密・孤独・正義感",
+        "Personality": "人から頼られることを好む高潔な人物"
+    },
+    {
+        "Birthday": "07/10",
+        "ColorName": "ペールパステルブルー",
+        "ColorNameKana": "Peer Pastel Blue",
+        "ColorCode": "#608fc3",
+        "ColorWords": "優しさ・甘美・謙虚",
+        "Personality": "女性の美しさを象徴する人"
+    },
+    {
+        "Birthday": "07/11",
+        "ColorName": "ラベンダーブルー",
+        "ColorNameKana": "Lavender Blue",
+        "ColorCode": "#5371ad",
+        "ColorWords": "礼儀・審美眼・色彩感",
+        "Personality": "人をうっとりさせる魅力のある人"
+    },
+    {
+        "Birthday": "07/12",
+        "ColorName": "マジョリカブルー",
+        "ColorNameKana": "Majorica Blue",
+        "ColorCode": "#044182",
+        "ColorWords": "教養・上品・幸せな未来",
+        "Personality": "真理を追究する人びとの指導者"
+    },
+    {
+        "Birthday": "07/13",
+        "ColorName": "紺青",
+        "ColorNameKana": "こんじょう",
+        "ColorCode": "#192f60",
+        "ColorWords": "自尊心・滅私奉公・直観力",
+        "Personality": "不幸な人を見過ごせない慈悲深い人"
+    },
+    {
+        "Birthday": "07/14",
+        "ColorName": "ディープベビーピンク",
+        "ColorNameKana": "Deep Baby Pink",
+        "ColorCode": "#fdede6",
+        "ColorWords": "感性・真心・温かさ",
+        "Personality": "前向きな姿勢で仕事も生活も楽しめる人"
+    },
+    {
+        "Birthday": "07/15",
+        "ColorName": "ペールモーベッド",
+        "ColorNameKana": "Peer Mho Bet",
+        "ColorCode": "#b370a6",
+        "ColorWords": "繊細・暗示・慎み深さ",
+        "Personality": "かわいいものに引かれる優美な人"
+    },
+    {
+        "Birthday": "07/16",
+        "ColorName": "ファウンテンブルー",
+        "ColorNameKana": "Fountain Blue",
+        "ColorCode": "#94adda",
+        "ColorWords": "踊りと音楽・自由・個性",
+        "Personality": "自由奔放な生活を望む人"
+    },
+    {
+        "Birthday": "07/17",
+        "ColorName": "サルビアブルー",
+        "ColorNameKana": "Salvia Blue",
+        "ColorCode": "#6b76ae",
+        "ColorWords": "経営力・洗練・機知",
+        "Personality": "道を究めるべくして存在する女性"
+    },
+    {
+        "Birthday": "07/18",
+        "ColorName": "ロイヤルパープル",
+        "ColorNameKana": "Royal Purple",
+        "ColorCode": "#7f1184",
+        "ColorWords": "知性・神秘性・ほのかな香り",
+        "Personality": "助けた人はみな成功する才覚の持ち主"
+    },
+    {
+        "Birthday": "07/19",
+        "ColorName": "ディープシェルピンク",
+        "ColorNameKana": "Deep Shell Pink",
+        "ColorCode": "#f7a7a0",
+        "ColorWords": "繊細・人を楽しませる・温かさ",
+        "Personality": "いつも慎ましい変わらぬ愛の持ち主"
+    },
+    {
+        "Birthday": "07/20",
+        "ColorName": "小麦色",
+        "ColorNameKana": "こむぎいろ",
+        "ColorCode": "#e49e61",
+        "ColorWords": "思いやり・空想的・感受性",
+        "Personality": "優美さに恵まれた妖精のような女性"
+    },
+    {
+        "Birthday": "07/21",
+        "ColorName": "ハバナローズ",
+        "ColorNameKana": "Havana Rose",
+        "ColorCode": "#c56950",
+        "ColorWords": "奥ゆかしさ・躍動・母性愛",
+        "Personality": "美しさと礼儀正しさが一体となった人"
+    },
+    {
+        "Birthday": "07/22",
+        "ColorName": "臙脂",
+        "ColorNameKana": "えんじ",
+        "ColorCode": "#b94047",
+        "ColorWords": "支持・向上心・弾力的思考",
+        "Personality": "自分の力量を自覚し向上させる人"
+    },
+    {
+        "Birthday": "07/23",
+        "ColorName": "茜色",
+        "ColorNameKana": "あかねいろ",
+        "ColorCode": "#b7282e",
+        "ColorWords": "厳格・可能性・積極性",
+        "Personality": "世界的視野を持つ穏健派"
+    },
+    {
+        "Birthday": "07/24",
+        "ColorName": "キューピッドピンク",
+        "ColorNameKana": "Cupid Pink",
+        "ColorCode": "#f5949f",
+        "ColorWords": "ほほえみ・良識・質素",
+        "Personality": "飾り気のない香気で人を陶酔させる美人"
+    },
+    {
+        "Birthday": "07/25",
+        "ColorName": "ロータスピンク",
+        "ColorNameKana": "Lotus Pink",
+        "ColorCode": "#de82a7",
+        "ColorWords": "永久不変の理念・明るさ・献身と抵抗",
+        "Personality": "気品ある精神の持ち主"
+    },
+    {
+        "Birthday": "07/26",
+        "ColorName": "ローズマダー",
+        "ColorNameKana": "Rose Mader",
+        "ColorCode": "#af363b",
+        "ColorWords": "愛敬・優雅・ユーモア",
+        "Personality": "人の内面に響く言動で感動させる情熱家"
+    },
+    {
+        "Birthday": "07/27",
+        "ColorName": "クリムソン",
+        "ColorNameKana": "Crimson",
+        "ColorCode": "#8d3446",
+        "ColorWords": "経験・才能・行動力",
+        "Personality": "女性の成熟が混在する多感な人"
+    },
+    {
+        "Birthday": "07/28",
+        "ColorName": "黒柿色",
+        "ColorNameKana": "くろがきいろ",
+        "ColorCode": "#404040",
+        "ColorWords": "ユーモア・ナイーブ・英知",
+        "Personality": "気高い理想と洗練された精神を宿す情熱家"
+    },
+    {
+        "Birthday": "07/29",
+        "ColorName": "セルリアンブルー",
+        "ColorNameKana": "Cerulean Blue",
+        "ColorCode": "#008db7",
+        "ColorWords": "誠実・霊感・思いやり",
+        "Personality": "真心を込めて人に接する優しい気持ちの持ち主"
+    },
+    {
+        "Birthday": "07/30",
+        "ColorName": "ピーコックブルー",
+        "ColorNameKana": "Peacock Blue",
+        "ColorCode": "#009e9f",
+        "ColorWords": "深い愛情・調和・友情",
+        "Personality": "自分を知り向上できる人"
+    },
+    {
+        "Birthday": "07/31",
+        "ColorName": "プルシアンブルー",
+        "ColorNameKana": "Pull Cyan Blue",
+        "ColorCode": "#044d78",
+        "ColorWords": "神秘的・クールな印象・明るさ",
+        "Personality": "表情に表さなくても心の奥で感動する人"
+    },
+    {
+        "Birthday": "08/01",
+        "ColorName": "ブルーシェル",
+        "ColorNameKana": "Blue Shell",
+        "ColorCode": "#438cb5",
+        "ColorWords": "社交的・我慢と根気・誠実",
+        "Personality": "だれにでも誠実に対応できる社交的な人"
+    },
+    {
+        "Birthday": "08/02",
+        "ColorName": "ペールヨットブルー",
+        "ColorNameKana": "Peer Yacht Blue",
+        "ColorCode": "#0098d4",
+        "ColorWords": "知能・責任・スピーディ",
+        "Personality": "内向的で格式ばったことを好む保守主義者"
+    },
+    {
+        "Birthday": "08/03",
+        "ColorName": "ヨットブルー",
+        "ColorNameKana": "Yacht Blue",
+        "ColorCode": "#409ecc",
+        "ColorWords": "謹厳実直・完全主義・人脈づくり",
+        "Personality": "人を心の底から信じる頼もしい人格者"
+    },
+    {
+        "Birthday": "08/04",
+        "ColorName": "シアンブルー",
+        "ColorNameKana": "Cyan Blue",
+        "ColorCode": "#0063a7",
+        "ColorWords": "気高さ・品格・頂点",
+        "Personality": "粘り強く困難に立向う忍耐力のある人"
+    },
+    {
+        "Birthday": "08/05",
+        "ColorName": "瑠璃色",
+        "ColorNameKana": "るりいろ",
+        "ColorCode": "#1e50a2",
+        "ColorWords": "人間性・おだやか・信頼・尊敬",
+        "Personality": "人に愛される人、信頼される人、尊敬される人"
+    },
+    {
+        "Birthday": "08/06",
+        "ColorName": "ラピスラズリー",
+        "ColorNameKana": "Lapis Lazuli",
+        "ColorCode": "#004c97",
+        "ColorWords": "粗野と高貴・意思決定力・教養",
+        "Personality": "思いやりに満ちた知的な人"
+    },
+    {
+        "Birthday": "08/07",
+        "ColorName": "ロイヤルブルー",
+        "ColorNameKana": "Royal Blue",
+        "ColorCode": "#02428c",
+        "ColorWords": "チャーミング・機知・芸術愛好",
+        "Personality": "知ることを求めて突き進む探検家"
+    },
+    {
+        "Birthday": "08/08",
+        "ColorName": "紺瑠璃",
+        "ColorNameKana": "こんるり",
+        "ColorCode": "#164a84",
+        "ColorWords": "神秘的直観・素朴な疑問・勝負",
+        "Personality": "直観の彼方を見つめつづける人"
+    },
+    {
+        "Birthday": "08/09",
+        "ColorName": "ネービーブルー",
+        "ColorNameKana": "Navy Blue",
+        "ColorCode": "#202f55",
+        "ColorWords": "知的・文化・洗練",
+        "Personality": "俗悪なものを嫌うロマンチスト"
+    },
+    {
+        "Birthday": "08/10",
+        "ColorName": "ハイドレンジアブルー",
+        "ColorNameKana": "Hyde Renzia Blue",
+        "ColorCode": "#3f61a1",
+        "ColorWords": "芸術・才能・表現力・心優しい",
+        "Personality": "感性を磨いて美しく表す芸術家"
+    },
+    {
+        "Birthday": "08/11",
+        "ColorName": "桑の実色",
+        "ColorNameKana": "くわのみいろ",
+        "ColorCode": "#55295b",
+        "ColorWords": "直観・信念・宗教",
+        "Personality": "精神的なものに感じやすい神秘主義者"
+    },
+    {
+        "Birthday": "08/12",
+        "ColorName": "藤鼠",
+        "ColorNameKana": "ふじねず",
+        "ColorCode": "#a6a5c4",
+        "ColorWords": "情熱・孤独・節度",
+        "Personality": "自分の存在を見つめるロマンチスト"
+    },
+    {
+        "Birthday": "08/13",
+        "ColorName": "白郡",
+        "ColorNameKana": "びゃくぐん",
+        "ColorCode": "#83ccd2",
+        "ColorWords": "感性・機敏・信念",
+        "Personality": "堅実な人柄で信頼と尊敬を集める人"
+    },
+    {
+        "Birthday": "08/14",
+        "ColorName": "ミヨゾティ",
+        "ColorNameKana": "Myosotis",
+        "ColorCode": "#4cb8e7",
+        "ColorWords": "輝く美声・生気・表現力",
+        "Personality": "人の心を高みに誘う美声の持ち主"
+    },
+    {
+        "Birthday": "08/15",
+        "ColorName": "黄色",
+        "ColorNameKana": "きいろ",
+        "ColorCode": "#ffd911",
+        "ColorWords": "機知・優しい心・家庭的",
+        "Personality": "温かい愛情に包まれて育った聡明な人"
+    },
+    {
+        "Birthday": "08/16",
+        "ColorName": "ライトクリーム",
+        "ColorNameKana": "Light Cream",
+        "ColorCode": "#fffa9c",
+        "ColorWords": "感性の蓄え・意思・リズム感",
+        "Personality": "感性を動きとリズムで表現する天才"
+    },
+    {
+        "Birthday": "08/17",
+        "ColorName": "プリムローズイエロー",
+        "ColorNameKana": "Primrose Yellow",
+        "ColorCode": "#fff97d",
+        "ColorWords": "愛と友情・好奇心・探求心",
+        "Personality": "色とりどりの少女時代を送った無垢な人"
+    },
+    {
+        "Birthday": "08/18",
+        "ColorName": "柑子色",
+        "ColorNameKana": "こうじいろ",
+        "ColorCode": "#f6ad49",
+        "ColorWords": "至高の精神・明朗・自由闊達",
+        "Personality": "精神を重視する賢者"
+    },
+    {
+        "Birthday": "08/19",
+        "ColorName": "ゴールデンオレンジ",
+        "ColorNameKana": "Golden Orange",
+        "ColorCode": "#f79101",
+        "ColorWords": "自分本位・一番乗り・健康",
+        "Personality": "No.1を求める誇り高き人"
+    },
+    {
+        "Birthday": "08/20",
+        "ColorName": "蜜柑色",
+        "ColorNameKana": "みかんいろ",
+        "ColorCode": "#f08300",
+        "ColorWords": "エネルギー・大望・現実的",
+        "Personality": "心身ともに健康な現実主義者"
+    },
+    {
+        "Birthday": "08/21",
+        "ColorName": "肉桂色",
+        "ColorNameKana": "にっけいいろ",
+        "ColorCode": "#dd7a56",
+        "ColorWords": "エネルギー・人間関係・情勢分析",
+        "Personality": "バランスをとり全体をまとめる指導者"
+    },
+    {
+        "Birthday": "08/22",
+        "ColorName": "ゴールデンコーン",
+        "ColorNameKana": "Golden Corn",
+        "ColorCode": "#ffcc83",
+        "ColorWords": "感情移入・創作力・人間関係",
+        "Personality": "ユニークに広がる心の持ち主"
+    },
+    {
+        "Birthday": "08/23",
+        "ColorName": "ディープサンフラワー",
+        "ColorNameKana": "Deep Sunflower",
+        "ColorCode": "#feae01",
+        "ColorWords": "タイミング・行動のリズム・美学のセンス",
+        "Personality": "ものごとを両面から見てとれる創造者"
+    },
+    {
+        "Birthday": "08/24",
+        "ColorName": "イエローオーカー",
+        "ColorNameKana": "Yellow Ocher",
+        "ColorCode": "#c4972f",
+        "ColorWords": "努力・トレーニング・行動",
+        "Personality": "自分をより高めようとする努力家"
+    },
+    {
+        "Birthday": "08/25",
+        "ColorName": "バフ",
+        "ColorNameKana": "Buff",
+        "ColorCode": "#caac71",
+        "ColorWords": "節度・平和・優雅",
+        "Personality": "人間関係を大切にする礼儀正しい人"
+    },
+    {
+        "Birthday": "08/26",
+        "ColorName": "煙草色",
+        "ColorNameKana": "たばこいろ",
+        "ColorCode": "#7d541c",
+        "ColorWords": "堅実・組織力・現実主義",
+        "Personality": "自分を優位に立たせることを願う指導者"
+    },
+    {
+        "Birthday": "08/27",
+        "ColorName": "スカイブルー",
+        "ColorNameKana": "Sky Blue",
+        "ColorCode": "#a0d8ee",
+        "ColorWords": "深慮遠謀・ファッション感覚・行動力",
+        "Personality": "どんな装いもフィットするロマンチスト"
+    },
+    {
+        "Birthday": "08/28",
+        "ColorName": "アクアグレイ",
+        "ColorNameKana": "Aqua Gray",
+        "ColorCode": "#5d9cbf",
+        "ColorWords": "芸術・感性・想像力",
+        "Personality": "どんな分野でも主役を望むクリエーター"
+    },
+    {
+        "Birthday": "08/29",
+        "ColorName": "ペールサルビアブルー",
+        "ColorNameKana": "Peer Salvia Blue",
+        "ColorCode": "#4b7cb6",
+        "ColorWords": "かぐわしさ・献身的行為・気品",
+        "Personality": "人脈づくりを得意とする慎重派"
+    },
+    {
+        "Birthday": "08/30",
+        "ColorName": "ウルトラマリーン",
+        "ColorNameKana": "Ultra Marine",
+        "ColorCode": "#356cac",
+        "ColorWords": "母性愛・音楽・気品",
+        "Personality": "心の琴線にふれる旋律を奏でる思いやりあふれる人"
+    },
+    {
+        "Birthday": "08/31",
+        "ColorName": "紫紺",
+        "ColorNameKana": "しこん",
+        "ColorCode": "#460e44",
+        "ColorWords": "自己管理・知的権威・居丈高",
+        "Personality": "人の上に立つオピニオンリーダー"
+    },
+    {
+        "Birthday": "09/01",
+        "ColorName": "フレッシュグリーン",
+        "ColorNameKana": "Freshgreen",
+        "ColorCode": "#7dbb7c",
+        "ColorWords": "教養・繊細・慎ましさ",
+        "Personality": "やさしく甘い声で語る恋愛小説のヒロイン"
+    },
+    {
+        "Birthday": "09/02",
+        "ColorName": "牧草色",
+        "ColorNameKana": "ぼくそういろ",
+        "ColorCode": "#368a56",
+        "ColorWords": "頑固・公明正大・努力",
+        "Personality": "自己犠牲をも辞さない尊敬すべき人"
+    },
+    {
+        "Birthday": "09/03",
+        "ColorName": "ホリーブリーン",
+        "ColorNameKana": "Holly Green",
+        "ColorCode": "#016257",
+        "ColorWords": "知覚・優しさ・創作意欲",
+        "Personality": "ユートピアを夢見る文学少女"
+    },
+    {
+        "Birthday": "09/04",
+        "ColorName": "ビリジャン",
+        "ColorNameKana": "Billi Jean",
+        "ColorCode": "#006b35",
+        "ColorWords": "好奇心・スリル・自発的",
+        "Personality": "冷静な判断力を持つ客観的な人"
+    },
+    {
+        "Birthday": "09/05",
+        "ColorName": "鉄色",
+        "ColorNameKana": "てついろ",
+        "ColorCode": "#005243",
+        "ColorWords": "虚栄心・善悪の区別・秩序",
+        "Personality": "少しずつ真理に近づく高潔な人"
+    },
+    {
+        "Birthday": "09/06",
+        "ColorName": "海松藍色",
+        "ColorNameKana": "みるあいいろ",
+        "ColorCode": "#003d26",
+        "ColorWords": "自分自身・エネルギー・努力",
+        "Personality": "努力を惜しまない努力家"
+    },
+    {
+        "Birthday": "09/07",
+        "ColorName": "淡水色",
+        "ColorNameKana": "うすみずいろ",
+        "ColorCode": "#6ebdc2",
+        "ColorWords": "調和・情熱・純粋",
+        "Personality": "社会の役立つことに生きがいを感じる人"
+    },
+    {
+        "Birthday": "09/08",
+        "ColorName": "アクアマリン",
+        "ColorNameKana": "Aquamarine",
+        "ColorCode": "#67b5b7",
+        "ColorWords": "冒険・トップの素質・臨機応変",
+        "Personality": "良心を信条とするまじめな人"
+    },
+    {
+        "Birthday": "09/09",
+        "ColorName": "ディープティールグリーン",
+        "ColorNameKana": "Deep Tyr Gree",
+        "ColorCode": "#006069",
+        "ColorWords": "思いやり・礼儀・心身の健康",
+        "Personality": "好奇心を持ちつづける若々しい人"
+    },
+    {
+        "Birthday": "09/10",
+        "ColorName": "鉄紺",
+        "ColorNameKana": "てつこん",
+        "ColorCode": "#17184b",
+        "ColorWords": "冷静・自己評価・独創",
+        "Personality": "陣頭指揮をふるうすぐれた経営者"
+    },
+    {
+        "Birthday": "09/11",
+        "ColorName": "ブループリュス",
+        "ColorNameKana": "Blue Plus",
+        "ColorCode": "#003221",
+        "ColorWords": "グルメ・思想家・文才",
+        "Personality": "何でもわかりやすく表現できる才人"
+    },
+    {
+        "Birthday": "09/12",
+        "ColorName": "マルベリー",
+        "ColorNameKana": "Circle Berry",
+        "ColorCode": "#282b6e",
+        "ColorWords": "大器・指導者・感性",
+        "Personality": "自分が向かっている道を知る識者"
+    },
+    {
+        "Birthday": "09/13",
+        "ColorName": "パープルネイビー",
+        "ColorNameKana": "Purple Navy",
+        "ColorCode": "#28285a",
+        "ColorWords": "こまやかさ・洗練・独創性",
+        "Personality": "絵画のように繊細なロマンチス"
+    },
+    {
+        "Birthday": "09/14",
+        "ColorName": "タン",
+        "ColorNameKana": "Tan",
+        "ColorCode": "#bf783e",
+        "ColorWords": "着想・努力・徹底追究",
+        "Personality": "疑問が明らかになるまで調べる情熱家"
+    },
+    {
+        "Birthday": "09/15",
+        "ColorName": "褐色",
+        "ColorNameKana": "かっしょく",
+        "ColorCode": "#8a3b00",
+        "ColorWords": "意志・好奇心・経験",
+        "Personality": "我の強いストレートな人"
+    },
+    {
+        "Birthday": "09/16",
+        "ColorName": "テラコッタ",
+        "ColorNameKana": "Terracotta",
+        "ColorCode": "#bd6856",
+        "ColorWords": "心情・伝統・主義主張",
+        "Personality": "豪気で大胆な考え方を示す善人"
+    },
+    {
+        "Birthday": "09/17",
+        "ColorName": "浅葱鼠",
+        "ColorNameKana": "あさぎねず",
+        "ColorCode": "#7dbb7d",
+        "ColorWords": "沈着冷静・直観・思いやり",
+        "Personality": "安定した人柄で人から頼られるしっかり者"
+    },
+    {
+        "Birthday": "09/18",
+        "ColorName": "パウダーブルー",
+        "ColorNameKana": "Powder Blue",
+        "ColorCode": "#bccddb",
+        "ColorWords": "冷静・温厚篤実・威厳",
+        "Personality": "後進の指導を得意とする温厚な人"
+    },
+    {
+        "Birthday": "09/19",
+        "ColorName": "ライラックヘイジィ",
+        "ColorNameKana": "Lilachazy",
+        "ColorCode": "#7c7684",
+        "ColorWords": "厳格・日本的・素質の開発",
+        "Personality": "厳しさを糧に円熟の域に達する努力家"
+    },
+    {
+        "Birthday": "09/20",
+        "ColorName": "ライトレモン",
+        "ColorNameKana": "Light Lemon",
+        "ColorCode": "#fffcbf",
+        "ColorWords": "憂愁・純粋・洗練",
+        "Personality": "敏感な感性を持つ素直な人"
+    },
+    {
+        "Birthday": "09/21",
+        "ColorName": "ティーグリーン",
+        "ColorNameKana": "Tea Green",
+        "ColorCode": "#e3edc8",
+        "ColorWords": "高潔・神秘主義・孤独",
+        "Personality": "気高く汚れのない神秘主義者"
+    },
+    {
+        "Birthday": "09/22",
+        "ColorName": "ブールジョン",
+        "ColorNameKana": "Bour John",
+        "ColorCode": "#edee9e",
+        "ColorWords": "楽しい会話・快活・折り目正しさ",
+        "Personality": "気持ちよい雰囲気をつくりだす朗らかな人"
+    },
+    {
+        "Birthday": "09/23",
+        "ColorName": "ジョーンシトロン",
+        "ColorNameKana": "Joan Lemonade",
+        "ColorCode": "#ebe960",
+        "ColorWords": "公正さ・自力・自己犠牲",
+        "Personality": "手ごたえを本格的に感じる野心家"
+    },
+    {
+        "Birthday": "09/24",
+        "ColorName": "鶸色",
+        "ColorNameKana": "ひわいろ",
+        "ColorCode": "#d7cf3a",
+        "ColorWords": "勝負・好機・直観",
+        "Personality": "しきたりを打破して突進する情熱家"
+    },
+    {
+        "Birthday": "09/25",
+        "ColorName": "サンオレンジ",
+        "ColorNameKana": "Sun Orange",
+        "ColorCode": "#fdb86d",
+        "ColorWords": "配慮・構想・瞬発力",
+        "Personality": "環境に影響を受けやすいナイーブな人"
+    },
+    {
+        "Birthday": "09/26",
+        "ColorName": "タンジェリンオレンジ",
+        "ColorNameKana": "Tangerine Orange",
+        "ColorCode": "#f37f44",
+        "ColorWords": "責任感・熟考・オリジナル",
+        "Personality": "模倣を嫌い独特の発想をする人"
+    },
+    {
+        "Birthday": "09/27",
+        "ColorName": "タイガーリリー",
+        "ColorNameKana": "Tiger Lily",
+        "ColorCode": "#f16f4f",
+        "ColorWords": "生命力・先駆者・勇気",
+        "Personality": "奇想天外な着想をするパイオニア"
+    },
+    {
+        "Birthday": "09/28",
+        "ColorName": "緋色",
+        "ColorNameKana": "ひいろ",
+        "ColorCode": "#d3381c",
+        "ColorWords": "夢・尊敬・構想",
+        "Personality": "崇高な雰囲気で尊敬できる人"
+    },
+    {
+        "Birthday": "09/29",
+        "ColorName": "オペラ",
+        "ColorNameKana": "Opera",
+        "ColorCode": "#e95388",
+        "ColorWords": "天真爛漫・強靭な精神・鋭さと温かさ",
+        "Personality": "ひとつのことに集中できる人"
+    },
+    {
+        "Birthday": "09/30",
+        "ColorName": "アマランスパープル",
+        "ColorNameKana": "Amaranth Purple",
+        "ColorCode": "#89438c",
+        "ColorWords": "現実・本質・探求心",
+        "Personality": "美しい場所を探し求めるロマンチスト"
+    },
+    {
+        "Birthday": "10/01",
+        "ColorName": "黄丹",
+        "ColorNameKana": "おうに",
+        "ColorCode": "#ee7948",
+        "ColorWords": "訓練・生命力・リズム感",
+        "Personality": "芸術とスポーツに秀でた活発な人"
+    },
+    {
+        "Birthday": "10/02",
+        "ColorName": "弁柄色",
+        "ColorNameKana": "べんがらいろ",
+        "ColorCode": "#8f2e14",
+        "ColorWords": "陽気・創造・ほほえみ",
+        "Personality": "誰からも愛される温かい心の持ち主"
+    },
+    {
+        "Birthday": "10/03",
+        "ColorName": "キャロットオレンジ",
+        "ColorNameKana": "Carrot Orange",
+        "ColorCode": "#ed6d35",
+        "ColorWords": "パワー・充実・挑戦",
+        "Personality": "ひとりぼっちを好まない社交的な人"
+    },
+    {
+        "Birthday": "10/04",
+        "ColorName": "フレイムオレンジ",
+        "ColorNameKana": "Frame Orange",
+        "ColorCode": "#ec5415",
+        "ColorWords": "感性・怜悧・美貌",
+        "Personality": "感情を包み隠した情熱家"
+    },
+    {
+        "Birthday": "10/05",
+        "ColorName": "丁字色",
+        "ColorNameKana": "ちょうじいろ",
+        "ColorCode": "#c78a77",
+        "ColorWords": "保守的・義務感・責任感",
+        "Personality": "気まぐれな行動を許せない合理主義者"
+    },
+    {
+        "Birthday": "10/06",
+        "ColorName": "シナモン",
+        "ColorNameKana": "Cinnamon",
+        "ColorCode": "#be8f68",
+        "ColorWords": "体調・精神の安定・安らぎ",
+        "Personality": "非凡なものが直感的にわかる人"
+    },
+    {
+        "Birthday": "10/07",
+        "ColorName": "カフェオレ",
+        "ColorNameKana": "Cafe Au Lait",
+        "ColorCode": "#946c45",
+        "ColorWords": "知識・たくましさ・決断力",
+        "Personality": "料理好きで旺盛な生活力の持ち主"
+    },
+    {
+        "Birthday": "10/08",
+        "ColorName": "煉瓦色",
+        "ColorNameKana": "れんがいろ",
+        "ColorCode": "#b55233",
+        "ColorWords": "安楽・幸せ・自由",
+        "Personality": "自然と一体化できる自由人"
+    },
+    {
+        "Birthday": "10/09",
+        "ColorName": "テラローザ",
+        "ColorNameKana": "Terra Rosa",
+        "ColorCode": "#7b411c",
+        "ColorWords": "理論的・感受性・危険回避",
+        "Personality": "新しい境地を開く驚異の人"
+    },
+    {
+        "Birthday": "10/10",
+        "ColorName": "オーカー",
+        "ColorNameKana": "Ochre",
+        "ColorCode": "#ba8b40",
+        "ColorWords": "知力・先見の明・人間の理解",
+        "Personality": "あくことなき探求心の持ち主"
+    },
+    {
+        "Birthday": "10/11",
+        "ColorName": "キャメル",
+        "ColorNameKana": "Camel",
+        "ColorCode": "#b76651",
+        "ColorWords": "記憶力・想像力・才能",
+        "Personality": "衝動的な言動をすることない正直な人"
+    },
+    {
+        "Birthday": "10/12",
+        "ColorName": "バーントシエンナ",
+        "ColorNameKana": "Burnt Sienna",
+        "ColorCode": "#823616",
+        "ColorWords": "個性・壮大・想像力",
+        "Personality": "素朴な優しさを持つ奥ゆかしい人"
+    },
+    {
+        "Birthday": "10/13",
+        "ColorName": "栗皮茶",
+        "ColorNameKana": "くりかわちゃ",
+        "ColorCode": "#6d3c32",
+        "ColorWords": "スタミナ・神秘的・保守的",
+        "Personality": "いつも音楽とともにある健康な人"
+    },
+    {
+        "Birthday": "10/14",
+        "ColorName": "セピア",
+        "ColorNameKana": "Sepia",
+        "ColorCode": "#622d18",
+        "ColorWords": "教養・初々しさ・独創性",
+        "Personality": "豊かな感性を持つ気まぐれな人"
+    },
+    {
+        "Birthday": "10/15",
+        "ColorName": "代赭",
+        "ColorNameKana": "たいしゃ",
+        "ColorCode": "#bb5520",
+        "ColorWords": "母性愛・自己啓発・洞察力",
+        "Personality": "機知に富む聡明な人"
+    },
+    {
+        "Birthday": "10/16",
+        "ColorName": "トパーズ",
+        "ColorNameKana": "Topaz",
+        "ColorCode": "#e9bc00",
+        "ColorWords": "優等生・入念・慎重",
+        "Personality": "自分らしさを出す才人"
+    },
+    {
+        "Birthday": "10/17",
+        "ColorName": "オーキッドホワイト",
+        "ColorNameKana": "Orchid White",
+        "ColorCode": "#d7d0ca",
+        "ColorWords": "清らか・理解力・思いやり",
+        "Personality": "おだやかな心で度量が大きい人"
+    },
+    {
+        "Birthday": "10/18",
+        "ColorName": "パールグレイ",
+        "ColorNameKana": "Pearl Gray",
+        "ColorCode": "#c9c9c4",
+        "ColorWords": "活発・優美・威厳",
+        "Personality": "静と動がほどよく融和した魅力の持ち主"
+    },
+    {
+        "Birthday": "10/19",
+        "ColorName": "銀鼠",
+        "ColorNameKana": "ぎんねず",
+        "ColorCode": "#afafb5",
+        "ColorWords": "慎ましさ・礼儀・気品",
+        "Personality": "思いやり深く気品に満ちた人"
+    },
+    {
+        "Birthday": "10/20",
+        "ColorName": "マウスグレイ",
+        "ColorNameKana": "Mouse Gray",
+        "ColorCode": "#7d7d7d",
+        "ColorWords": "自然の法則・慣習・試行錯誤",
+        "Personality": "着実で堅固な生活を送る平和主義者"
+    },
+    {
+        "Birthday": "10/21",
+        "ColorName": "鳩羽鼠",
+        "ColorNameKana": "はとばねずみ",
+        "ColorCode": "#9e8b8e",
+        "ColorWords": "宗教的・禁欲・叙情性",
+        "Personality": "神聖な思索で人間性を回復する人"
+    },
+    {
+        "Birthday": "10/22",
+        "ColorName": "石版色",
+        "ColorNameKana": "せきばんいろ",
+        "ColorCode": "#585c5b",
+        "ColorWords": "文化・喧騒・都会的",
+        "Personality": "仕事一途の合理主義者"
+    },
+    {
+        "Birthday": "10/23",
+        "ColorName": "芥子色",
+        "ColorNameKana": "からしいろ",
+        "ColorCode": "#d0af4c",
+        "ColorWords": "自信・記憶力・不屈の精神",
+        "Personality": "構想をじっくりと練り実現させる自信家"
+    },
+    {
+        "Birthday": "10/24",
+        "ColorName": "シーモス",
+        "ColorNameKana": "Seamos",
+        "ColorCode": "#646f2d",
+        "ColorWords": "情熱・協力・夢",
+        "Personality": "基礎となる考えがしっかりしている人"
+    },
+    {
+        "Birthday": "10/25",
+        "ColorName": "ローズグレイ",
+        "ColorNameKana": "Rose Gray",
+        "ColorCode": "#9d8e87",
+        "ColorWords": "丁寧・敬意・静叙",
+        "Personality": "控えめで慎ましく振る舞う落ち着いた人"
+    },
+    {
+        "Birthday": "10/26",
+        "ColorName": "ライトターコイズ",
+        "ColorNameKana": "Light Turquoise",
+        "ColorCode": "#548778",
+        "ColorWords": "自力本願・指導者・活路",
+        "Personality": "常に冷静で思慮深く行動する人"
+    },
+    {
+        "Birthday": "10/27",
+        "ColorName": "錆納戸",
+        "ColorNameKana": "さびなんど",
+        "ColorCode": "#476b6b",
+        "ColorWords": "継続・安らぎ・自然",
+        "Personality": "いつも新しい目標に挑戦するチャレンジャー"
+    },
+    {
+        "Birthday": "10/28",
+        "ColorName": "鳩羽紫",
+        "ColorNameKana": "はとばむらさき",
+        "ColorCode": "#6c6a6d",
+        "ColorWords": "前向き・潔癖・気品",
+        "Personality": "行動で学ぶことをモットーにする実践主義者"
+    },
+    {
+        "Birthday": "10/29",
+        "ColorName": "栗色",
+        "ColorNameKana": "くりいろ",
+        "ColorCode": "#665951",
+        "ColorWords": "強情・健康・穏健",
+        "Personality": "穏健でも自分の考えを譲らない"
+    },
+    {
+        "Birthday": "10/30",
+        "ColorName": "ビンヤード",
+        "ColorNameKana": "Vineyard",
+        "ColorCode": "#83515d",
+        "ColorWords": "経験・目的と手段・相談相手",
+        "Personality": "心配や難問の解決に力を貸す頼もしい人"
+    },
+    {
+        "Birthday": "10/31",
+        "ColorName": "ライラック",
+        "ColorNameKana": "Lilac",
+        "ColorCode": "#d1bada",
+        "ColorWords": "機知・理論的・勇猛果敢",
+        "Personality": "ものごとを成功させるために燃える情熱家"
+    },
+    {
+        "Birthday": "11/01",
+        "ColorName": "駱駝色",
+        "ColorNameKana": "らくだいろ",
+        "ColorCode": "#bf794e",
+        "ColorWords": "経営力・自信と誇り・我慢",
+        "Personality": "自信と気力に満ちた才腕をふるう人"
+    },
+    {
+        "Birthday": "11/02",
+        "ColorName": "小鹿色",
+        "ColorNameKana": "こじかいろ",
+        "ColorCode": "#8b724a",
+        "ColorWords": "洞察力・現実派・柔軟性",
+        "Personality": "何にも左右されない強い意志の持ち主"
+    },
+    {
+        "Birthday": "11/03",
+        "ColorName": "黒茶色",
+        "ColorNameKana": "くろちゃいろ",
+        "ColorCode": "#583822",
+        "ColorWords": "公正・高潔・信頼",
+        "Personality": "人からの助けを大切にできる人"
+    },
+    {
+        "Birthday": "11/04",
+        "ColorName": "トープ",
+        "ColorNameKana": "Taupe",
+        "ColorCode": "#504946",
+        "ColorWords": "感覚・職人わざ・至高",
+        "Personality": "自分の仕事に誇りを持てる自信家"
+    },
+    {
+        "Birthday": "11/05",
+        "ColorName": "チャコールグレイ",
+        "ColorNameKana": "Charcoal Gray",
+        "ColorCode": "#4e454a",
+        "ColorWords": "信念・男性的・礼儀作法",
+        "Personality": "義理人情に厚く人助けが好きな人"
+    },
+    {
+        "Birthday": "11/06",
+        "ColorName": "ジョーンドナープル",
+        "ColorNameKana": "Joan Donor Pull",
+        "ColorCode": "#ffcc7b",
+        "ColorWords": "気くばり・予感・バランス",
+        "Personality": "思考と行動のバランスをとれる人"
+    },
+    {
+        "Birthday": "11/07",
+        "ColorName": "サンフラワー",
+        "ColorNameKana": "Sunflower",
+        "ColorCode": "#feb75b",
+        "ColorWords": "タイミング・行動のリズム・美学のセンス",
+        "Personality": "ものごとを両面から見てとれる創造者"
+    },
+    {
+        "Birthday": "11/08",
+        "ColorName": "ナスタチウムオレンジ",
+        "ColorNameKana": "Nastatium Orange",
+        "ColorCode": "#f5811e",
+        "ColorWords": "組織・バランス・協調性",
+        "Personality": "人間関係の機微を心得た人"
+    },
+    {
+        "Birthday": "11/09",
+        "ColorName": "樺色",
+        "ColorNameKana": "かばいろ",
+        "ColorCode": "#cd5e3c",
+        "ColorWords": "楽天主義・大胆・向上心",
+        "Personality": "自分自身の力を信じることのできる人"
+    },
+    {
+        "Birthday": "11/10",
+        "ColorName": "タバコブラウン",
+        "ColorNameKana": "Tobacco Brown",
+        "ColorCode": "#8d6029",
+        "ColorWords": "意地・自信・親身",
+        "Personality": "打ち明け話に聞き入る優しい人"
+    },
+    {
+        "Birthday": "11/11",
+        "ColorName": "ペールクリーム",
+        "ColorNameKana": "Peer Cream",
+        "ColorCode": "#ffdfac",
+        "ColorWords": "用意周到・創造力・静けさ",
+        "Personality": "たぐいまれな品格ある感性の持ち主"
+    },
+    {
+        "Birthday": "11/12",
+        "ColorName": "砂色",
+        "ColorNameKana": "すないろ",
+        "ColorCode": "#dcd3b2",
+        "ColorWords": "健康・熟練・芸術",
+        "Personality": "努力と精進により頂点を極める人"
+    },
+    {
+        "Birthday": "11/13",
+        "ColorName": "アッシュグレイ",
+        "ColorNameKana": "Ashe Gray",
+        "ColorCode": "#9fa09e",
+        "ColorWords": "堅実さ・公正な判断・仕事",
+        "Personality": "寸暇を惜しんで仕事に励む働き者"
+    },
+    {
+        "Birthday": "11/14",
+        "ColorName": "ガンメタル",
+        "ColorNameKana": "Gunmetal",
+        "ColorCode": "#55461b",
+        "ColorWords": "スタミナ・母性本能・組織力",
+        "Personality": "感情に走らない誠実で保守的な人"
+    },
+    {
+        "Birthday": "11/15",
+        "ColorName": "墨色",
+        "ColorNameKana": "すみいろ",
+        "ColorCode": "#473a17",
+        "ColorWords": "神秘的・強固な意志・独立心",
+        "Personality": "夢や希望をいっぱい持つ情熱家"
+    },
+    {
+        "Birthday": "11/16",
+        "ColorName": "桜貝色",
+        "ColorNameKana": "さくらがいいろ",
+        "ColorCode": "#fababa",
+        "ColorWords": "不偏的な愛・ロマンチック・上品",
+        "Personality": "教養豊かな洗練された好みの人"
+    },
+    {
+        "Birthday": "11/17",
+        "ColorName": "オーキッドピンク",
+        "ColorNameKana": "Orchid Pink",
+        "ColorCode": "#da81b2",
+        "ColorWords": "しとやか・喜び・献身",
+        "Personality": "代償を求めない献身的な愛の持ち主"
+    },
+    {
+        "Birthday": "11/18",
+        "ColorName": "マーシュローズ",
+        "ColorNameKana": "Marshu Rose",
+        "ColorCode": "#b4766b",
+        "ColorWords": "信望・挑戦・育成",
+        "Personality": "知識や学問をひとつひとつ身につける博識家"
+    },
+    {
+        "Birthday": "11/19",
+        "ColorName": "クラーレット",
+        "ColorNameKana": "Claret",
+        "ColorCode": "#b1585c",
+        "ColorWords": "教養・感性・精神力",
+        "Personality": "上品であか抜けた絶世の美人"
+    },
+    {
+        "Birthday": "11/20",
+        "ColorName": "ダブグレイ",
+        "ColorNameKana": "Dove Gray",
+        "ColorCode": "#7d7b83",
+        "ColorWords": "気まぐれ・おおらか・芸術",
+        "Personality": "心身ともに燃えるような生命力の持ち主"
+    },
+    {
+        "Birthday": "11/21",
+        "ColorName": "ペールサロー",
+        "ColorNameKana": "Peer Sarrau",
+        "ColorCode": "#c8ceac",
+        "ColorWords": "せんさく・友人・うぬぼれ",
+        "Personality": "二番になることを好まない自信家"
+    },
+    {
+        "Birthday": "11/22",
+        "ColorName": "抹茶色",
+        "ColorNameKana": "まっちゃいろ",
+        "ColorCode": "#bbc8ac",
+        "ColorWords": "信条・理想・器量",
+        "Personality": "目標達成のため猛然とアクションを起こす人"
+    },
+    {
+        "Birthday": "11/23",
+        "ColorName": "灰汁色",
+        "ColorNameKana": "あくいろ",
+        "ColorCode": "#9e9478",
+        "ColorWords": "目的意識・責任感・集中力",
+        "Personality": "新しいことに意欲を燃やす挑戦者"
+    },
+    {
+        "Birthday": "11/24",
+        "ColorName": "鉛色",
+        "ColorNameKana": "なまりいろ",
+        "ColorCode": "#7b7c7d",
+        "ColorWords": "感情回避・孤独・冷静沈着",
+        "Personality": "いつも心をコントロールする傍観者"
+    },
+    {
+        "Birthday": "11/25",
+        "ColorName": "オフブラック",
+        "ColorNameKana": "Off Black",
+        "ColorCode": "#39423f",
+        "ColorWords": "保守的・きまぐれ・厳粛",
+        "Personality": "人から威厳と神秘の風貌に見られる人"
+    },
+    {
+        "Birthday": "11/26",
+        "ColorName": "ペールアプリコット",
+        "ColorNameKana": "Peer Apricot",
+        "ColorCode": "#fdb58f",
+        "ColorWords": "温かさ・中立・芸術",
+        "Personality": "社会にうまく順応する実践派"
+    },
+    {
+        "Birthday": "11/27",
+        "ColorName": "肌色",
+        "ColorNameKana": "はだいろ",
+        "ColorCode": "#fce2c4",
+        "ColorWords": "自活力・現実主義・正直",
+        "Personality": "現象から本質を導き出す理論派"
+    },
+    {
+        "Birthday": "11/28",
+        "ColorName": "サンタン",
+        "ColorNameKana": "Suntan",
+        "ColorCode": "#b47226",
+        "ColorWords": "現実主義・実践・懐疑",
+        "Personality": "十分に見定めないと気がすまない実践者"
+    },
+    {
+        "Birthday": "11/29",
+        "ColorName": "ブリックレッド",
+        "ColorNameKana": "Brick Red",
+        "ColorCode": "#8c6b4a",
+        "ColorWords": "自信・集中力・自力",
+        "Personality": "失望や落胆を嫌う慎重派"
+    },
+    {
+        "Birthday": "11/30",
+        "ColorName": "枯葉色",
+        "ColorNameKana": "かれはいろ",
+        "ColorCode": "#54513e",
+        "ColorWords": "信念・基礎・信頼",
+        "Personality": "自分をしっかりと保つことができる信念の人"
+    },
+    {
+        "Birthday": "12/01",
+        "ColorName": "亜麻色",
+        "ColorNameKana": "あまいろ",
+        "ColorCode": "#d6c6af",
+        "ColorWords": "文化的志向・気取りや・色彩感",
+        "Personality": "美しさに魅力を感じる芸術家"
+    },
+    {
+        "Birthday": "12/02",
+        "ColorName": "ハニースイート",
+        "ColorNameKana": "Honey Suite",
+        "ColorCode": "#caa980",
+        "ColorWords": "のんき・向上心・文化",
+        "Personality": "安心感を保証するものにひかれる人"
+    },
+    {
+        "Birthday": "12/03",
+        "ColorName": "栗梅",
+        "ColorNameKana": "くりうめ",
+        "ColorCode": "#852e19",
+        "ColorWords": "本質・実践・実績",
+        "Personality": "空想にふけるより実践する人"
+    },
+    {
+        "Birthday": "12/04",
+        "ColorName": "タウニーオリーブ",
+        "ColorNameKana": "Tauni Olive",
+        "ColorCode": "#5d5644",
+        "ColorWords": "個性・毅然・社交的",
+        "Personality": "大胆で勇気ある人"
+    },
+    {
+        "Birthday": "12/05",
+        "ColorName": "黒紫",
+        "ColorNameKana": "くろむらさき",
+        "ColorCode": "#4e4b3a",
+        "ColorWords": "貯蓄・信念・慎ましさ",
+        "Personality": "流行を気にしない教養の深い学者タイプ"
+    },
+    {
+        "Birthday": "12/06",
+        "ColorName": "シトロングレイ",
+        "ColorNameKana": "Citron Gray",
+        "ColorCode": "#e5cc96",
+        "ColorWords": "才気縦横・機知・母性愛",
+        "Personality": "途方もない夢を抱く感性豊かな人"
+    },
+    {
+        "Birthday": "12/07",
+        "ColorName": "ペールライムライト",
+        "ColorNameKana": "Pale Lime Light",
+        "ColorCode": "#e6d89b",
+        "ColorWords": "屋外・外交的・気前",
+        "Personality": "汗水を流して働くまじめな人"
+    },
+    {
+        "Birthday": "12/08",
+        "ColorName": "菜種油色",
+        "ColorNameKana": "なたねゆいろ",
+        "ColorCode": "#a69425",
+        "ColorWords": "日常・泰然自若・信頼",
+        "Personality": "気持ちにむらがなく信用を集める人"
+    },
+    {
+        "Birthday": "12/09",
+        "ColorName": "オイルイエロー",
+        "ColorNameKana": "Oil Yellow",
+        "ColorCode": "#b4935d",
+        "ColorWords": "安定・冷静沈着・貫徹",
+        "Personality": "困難な境遇にも動揺しないしっかり者"
+    },
+    {
+        "Birthday": "12/10",
+        "ColorName": "ブロンズ",
+        "ColorNameKana": "Bronze",
+        "ColorCode": "#ac6b25",
+        "ColorWords": "保守的・実践派・行動力",
+        "Personality": "人目につくことを嫌う控えめな人"
+    },
+    {
+        "Birthday": "12/11",
+        "ColorName": "シーシェルピンク",
+        "ColorNameKana": "Sea Shell Pink",
+        "ColorCode": "#fbbaa8",
+        "ColorWords": "清潔・ロマンチック・かわいらしさ",
+        "Personality": "身のこなしすべてに優雅さを漂わす人"
+    },
+    {
+        "Birthday": "12/12",
+        "ColorName": "鮭色",
+        "ColorNameKana": "さけいろ",
+        "ColorCode": "#f79383",
+        "ColorWords": "ユニーク・決断力・積極性",
+        "Personality": "困難を恐れず行動するアイデアマン"
+    },
+    {
+        "Birthday": "12/13",
+        "ColorName": "洗朱",
+        "ColorNameKana": "あらいしゅ",
+        "ColorCode": "#f4816f",
+        "ColorWords": "移り気・優しさ・人間関係",
+        "Personality": "人に大きな楽しみを与える気まぐれ者"
+    },
+    {
+        "Birthday": "12/14",
+        "ColorName": "朱色",
+        "ColorNameKana": "しゅいろ",
+        "ColorCode": "#eb6101",
+        "ColorWords": "社交的・人脈・緩急自在",
+        "Personality": "そこにいるだけで魅力を発散する人"
+    },
+    {
+        "Birthday": "12/15",
+        "ColorName": "バートンオレンジ",
+        "ColorNameKana": "Burnt Orange",
+        "ColorCode": "#b16268",
+        "ColorWords": "衝動的・情緒・表現力",
+        "Personality": "いつも気持ちが外に向かうスポーツタイプ"
+    },
+    {
+        "Birthday": "12/16",
+        "ColorName": "ベージュホワイト",
+        "ColorNameKana": "Beige White",
+        "ColorCode": "#fdceba",
+        "ColorWords": "理性・忍耐・思いきり",
+        "Personality": "自分の力で危機から脱却する勇者"
+    },
+    {
+        "Birthday": "12/17",
+        "ColorName": "ベージュ",
+        "ColorNameKana": "Beige",
+        "ColorCode": "#eedcb3",
+        "ColorWords": "バランス・人なつこさ・温かさ",
+        "Personality": "まわりの人を明るくする存在の人"
+    },
+    {
+        "Birthday": "12/18",
+        "ColorName": "ブラウンゴールド",
+        "ColorNameKana": "Brown Gold",
+        "ColorCode": "#b4766d",
+        "ColorWords": "清純・感情の隠蔽・夢を追う",
+        "Personality": "とりとめのない夢を追う心の温かい人"
+    },
+    {
+        "Birthday": "12/19",
+        "ColorName": "飴色",
+        "ColorNameKana": "あめいろ",
+        "ColorCode": "#deb068",
+        "ColorWords": "学問・家庭・精神的充足",
+        "Personality": "頑固で自分勝手な人を嫌う正直な人"
+    },
+    {
+        "Birthday": "12/20",
+        "ColorName": "ヒーザー",
+        "ColorNameKana": "Heather",
+        "ColorCode": "#715c61",
+        "ColorWords": "安定感・信念・活路",
+        "Personality": "楽しさを求めるユーモア人"
+    },
+    {
+        "Birthday": "12/21",
+        "ColorName": "リラ",
+        "ColorNameKana": "Lilla",
+        "ColorCode": "#e0b5d3",
+        "ColorWords": "高尚・上品・明晰",
+        "Personality": " 心身ともに洗練された人"
+    },
+    {
+        "Birthday": "12/22",
+        "ColorName": "ヘリオトロープ",
+        "ColorNameKana": "Heliotrope",
+        "ColorCode": "#9079b6",
+        "ColorWords": "感性・高貴・若々しさ",
+        "Personality": "ロマンチックな気分に満たされた人"
+    },
+    {
+        "Birthday": "12/23",
+        "ColorName": "菖蒲色",
+        "ColorNameKana": "ショウブイロ",
+        "ColorCode": "#674196",
+        "ColorWords": "神秘的・芸術的・哲学的",
+        "Personality": "おとぎの国の生活を夢見る人"
+    },
+    {
+        "Birthday": "12/24",
+        "ColorName": "エッグプラント",
+        "ColorNameKana": "Egg Plant",
+        "ColorCode": "#241b36",
+        "ColorWords": "保守的・厳粛・安心感",
+        "Personality": "まじめで真剣に行動するしっかり者"
+    },
+    {
+        "Birthday": "12/25",
+        "ColorName": "茄子紺",
+        "ColorNameKana": "なすこん",
+        "ColorCode": "#824880",
+        "ColorWords": "心配性・審美眼・洗練",
+        "Personality": "世間から目をそらす引っ込み思案な人"
+    },
+    {
+        "Birthday": "12/26",
+        "ColorName": "ゴールド",
+        "ColorNameKana": "Gold",
+        "ColorCode": "#e6b422",
+        "ColorWords": "理想・おおらか・花形",
+        "Personality": "強力な保護者になるしっかり者"
+    },
+    {
+        "Birthday": "12/27",
+        "ColorName": "サロー",
+        "ColorNameKana": "Sarrau",
+        "ColorCode": "#afb293",
+        "ColorWords": "威厳・自己愛・自責",
+        "Personality": "自分自身を財産だと思える自信家"
+    },
+    {
+        "Birthday": "12/28",
+        "ColorName": "ジョーンミエル",
+        "ColorNameKana": "Joan Miel",
+        "ColorCode": "#cb981b",
+        "ColorWords": "誇り・見識・気まぐれ",
+        "Personality": "財産に恵まれた太っ腹な人"
+    },
+    {
+        "Birthday": "12/29",
+        "ColorName": "マスタード",
+        "ColorNameKana": "Mustard",
+        "ColorCode": "#b2a280",
+        "ColorWords": "静穏・調和・エコロジー",
+        "Personality": "慈愛に満ちた世界観の持ち主"
+    },
+    {
+        "Birthday": "12/30",
+        "ColorName": "オータムリーフ",
+        "ColorNameKana": "Autumnleaf",
+        "ColorCode": "#b26724",
+        "ColorWords": "奥義・自信・ロマンチック",
+        "Personality": "多くの人の後ろ盾となる人"
+    },
+    {
+        "Birthday": "12/31",
+        "ColorName": "ターコイズブルー",
+        "ColorNameKana": "Turquoise Blue",
+        "ColorCode": "#00afcc",
+        "ColorWords": "個性・比較・シンプル",
+        "Personality": "個性的な人"
+    }
+]

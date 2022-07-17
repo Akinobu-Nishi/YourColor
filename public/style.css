@@ -1,0 +1,236 @@
+@font-face {
+	font-family: 'Klee One';
+	src: url('./font/KleeOne-Regular.ttf') format('truetype'),
+       url('./font/KleeOne-SemiBold.ttf') format('truetype');
+}
+
+@keyframes heartAnimation {
+  0% {
+    /* アイコンサイズをもとのより小さくする */
+    transform: scale(0.5);
+  }
+  10% {
+    transform: scale(0.7);
+  }
+  30% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  80% {
+    transform: scale(1.5);
+  }
+  100% {
+    /* もとのサイズに戻す */
+    transform: scale(1.0);
+  }
+}
+
+@keyframes modalopen {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+body { 
+  margin-top: 30px;
+  font-family: Klee One;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.form select { 
+  width: 103px;
+} 
+
+.templates { 
+  display: none; 
+}
+
+.fixed-bottom {
+  user-select: none;
+  position: fixed;
+  bottom: 0px;
+  z-index: 9;
+  width: 100%;
+}
+
+.fixed-bottom div {
+  text-align: center;
+}
+
+.fixed-bottom a {
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.fixed-bottom p {
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.fixed-bottom a:hover {
+  text-decoration: underline;
+}
+
+.prev {
+  padding-right: 65px;
+}
+
+.next {
+  padding-left: 65px;
+}
+
+.iconrow {
+  user-select: none;
+}
+
+.half-round {
+  background-color: white;
+  width: auto;
+  height: 40px;
+  border-radius: 18px 18px 18px 18px;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.round {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.icon-heart {
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 11px;
+  fill: #AAB8C2;
+}
+
+.icon-heart.heartEnable {
+  animation: heartAnimation .2s;
+  fill: #e74c3c;
+}
+
+.icon-heart.heartDisable {
+  fill: #AAB8C2;
+}
+
+.likecount {
+  color: #535c68;
+  font-size: 12px;
+  margin-top: 8px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.icon-twitter {
+  cursor: pointer;
+  margin-left: 1px;
+  margin-top: 9px;
+  fill: #AAB8C2;
+}
+
+.icon-twitter:hover {
+  fill: #586d7b;
+}
+
+.icon-line {
+  cursor: pointer;
+  margin-top: 9px;
+  fill: #AAB8C2;
+}
+
+.icon-line:hover {
+  fill: #586d7b;
+}
+
+.icon-google {
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+}
+
+.date-view {
+  margin-bottom: -10px;
+}
+
+.home {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.modal {
+  user-select: none;
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 350px;
+  height: 450px;
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+  padding: 15px 15px 30px 15px;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+  animation-name: modalopen;
+  animation-duration: 1s;
+  text-align: center;
+}
+
+.modal-content label {
+  display: inline-block;
+  text-align: left;
+  width: 300px;
+}
+
+.modalClose {
+  border: none;
+  font-size: 4rem;
+  color: white;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.modalClose:hover {
+  text-decoration: none;
+  color: white;
+}
+
+p span.huge {
+  font-size: 22pt;
+}
+p span.medi {
+  font-size: 12pt;
+}
+p span.tiny {
+  font-size: 10pt;
+}
