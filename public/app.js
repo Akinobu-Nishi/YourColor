@@ -1,6 +1,8 @@
 'use strict';
 
-var yourcolor = {};
+var yourcolor = {
+  poolId: 'ap-northeast-1:0e869897-121f-4ea4-b934-f4117dbc0dec'
+};
 
 yourcolor.mon;  //誕生月
 yourcolor.day;  //誕生日
@@ -240,14 +242,20 @@ window.isAuthenticated = false;
 window.identity = {};
 window.token = '';
 
-window.onload = function () {
-  google.accounts.id.initialize({
-    client_id: "1083651747097-11rdqe2avi66tgoldsatp8p8l2pdq6tj.apps.googleusercontent.com",
-    callback: handleCredentialResponse,
-  });
-  google.accounts.id.prompt();
-}
-
 function handleCredentialResponse(response) {
-  console.log("Encoded JWT ID token: " + response.credential);
+  GoogleIdTokenVerifier verifier =
+       new GoogleIdTokenVerifier.Builder(transport, jsonFactory)
+           .setAudience(Arrays.asList(CLIENT_ID))
+           .setIssuer(ISSUER)
+           .build();
+  GoogleIdToken idToken = verifier.verify(response.credential);
+  AWS.config.update ({
+    region: 'ap-northeast-1',
+    credentials: new AWS.CognitoIdentityCredentials ({
+      IdentityPoolId: yourcolor.poolId,
+      Logins: {
+        'accounts.google.com': idToken
+      }
+    })
+  })
 }
