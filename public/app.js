@@ -243,18 +243,13 @@ window.identity = {};
 window.token = '';
 
 function handleCredentialResponse(response) {
-  GoogleIdTokenVerifier verifier =
-       new GoogleIdTokenVerifier.Builder(transport, jsonFactory)
-           .setAudience(Arrays.asList(CLIENT_ID))
-           .setIssuer(ISSUER)
-           .build();
-  GoogleIdToken idToken = verifier.verify(response.credential);
+  console.log(response.credential);
   AWS.config.update ({
     region: 'ap-northeast-1',
     credentials: new AWS.CognitoIdentityCredentials ({
       IdentityPoolId: yourcolor.poolId,
       Logins: {
-        'accounts.google.com': idToken
+        'accounts.google.com': response['id_token']
       }
     })
   })

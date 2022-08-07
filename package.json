@@ -1,6 +1,12 @@
 {
+  "scripts": {
+    "build": "browserify .\\public\\app.js > .\\public\\out.js"
+  },
   "dependencies": {
     "aws-sdk": "^2.1176.0",
     "google-auth-library": "^8.1.1"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0"
   }
 }
