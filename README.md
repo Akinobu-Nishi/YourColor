@@ -14,3 +14,8 @@ $ aws --profile Administrator s3 sync public/ s3://yourcolor.nishi8024.com --acl
 
 # Endpoint S3
 http://yourcolor.nishi8024.com.s3-website-ap-northeast-1.amazonaws.com/
+
+# Cognito
+ap-northeast-1_dDwYBmmmu
+30c33rdn8m8o0d5rnjuql8qv4p
+ap-northeast-1:0e869897-121f-4ea4-b934-f4117dbc0dec

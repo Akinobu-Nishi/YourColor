@@ -19,9 +19,10 @@ yourcolor.appOnReady = function() {
 
 yourcolor.showView = function(hash) {
   var routes = {
-    ''       : yourcolor.landingView,
-    '#'      : yourcolor.landingView,
-    '#birth' : yourcolor.birthView,
+    ''          : yourcolor.landingView,
+    '#'         : yourcolor.landingView,
+    '#birth'    : yourcolor.birthView,
+    '#register' : yourcolor.registerView,
   };
   var hashParts = hash.split('-');
   var viewFn = routes[hashParts[0]];
@@ -231,6 +232,23 @@ yourcolor.birthView = function(data) {
   }
 
   $('body').fadeIn(500);
+  return view;
+}
+
+yourcolor.registerView = function() {
+  var view = yourcolor.template('register-view');
+
+  yourcolor.mon = "";
+  yourcolor.day = "";
+
+  var foot_prev = document.getElementById('prev');
+  var foot_next = document.getElementById('next');
+  foot_prev.text = '';
+  foot_next.text = '';
+  $('#pres').text('');
+  $('#home').text('');
+
+  $('body').css('background-color','white');
   return view;
 }
 
